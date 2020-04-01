@@ -1,0 +1,80 @@
+<html>
+<head>
+   <title>MOSIS file ibm-013/t45n_8lm_dm-params.txt</title>
+   <style><!-- PRE {font-size: 11pt; font-weight: 600; font-family: Courier New,Courier; } --></style>
+</head>
+
+
+<body><font SIZE="+1"><pre><B>                                         
+                          MOSIS PARAMETRIC TEST RESULTS
+                                         
+     RUN: T45N (8RF_8LM_DM)                                VENDOR: IBM-BURLINGTON
+   TECHNOLOGY: SCN013                                FEATURE SIZE: 0.13 microns
+
+
+INTRODUCTION: This report contains the lot average results obtained by MOSIS
+              from measurements of MOSIS test structures on each wafer of
+              this fabrication lot. SPICE parameters obtained from similar
+              measurements on a selected wafer are also attached.
+
+COMMENTS: 8RF_IBM-BURLIN
+
+
+TRANSISTOR PARAMETERS     W/L       N-CHANNEL P-CHANNEL  UNITS
+                                                        
+ MINIMUM                  0.16/0.12                      
+  Vth                                    0.41     -0.45  volts
+                                                        
+ SHORT                    20.0/0.12                     
+  Idss                                 454      -197     uA/um
+  Vth                                    0.47     -0.47  volts
+  Vpt                                    3.1      -3.7   volts
+                                                        
+ WIDE                     20.0/0.12                     
+  Ids0                                 261.5    -120.1   pA/um
+                                                        
+ LARGE                    50/50                         
+  Vth                                    0.11     -0.22  volts
+  Vjbkd                                  2.5      -2.9   volts
+  Ijlk                                 &lt;50.0     &lt;50.0   pA
+  Gamma                                  0.24      0.23  V^0.5
+                                                        
+ K' (Uo*Cox/2)                         281.9     -49.1   uA/V^2
+ Low-field Mobility                    522.48     91.00  cm^2/V*s
+                                                        
+
+
+PROCESS PARAMETERS     N+    P+    POLY    P+PLY    M1     M2     M3   UNITS
+ Sheet Resistance       3.4   7.1  6.9    334.7    0.14   0.10   0.10  ohms/sq
+ Contact Resistance    13.3  11.9  9.8                    0.80   1.48  ohms
+ Gate Oxide Thickness  32                                              angstrom
+                                                                      
+PROCESS PARAMETERS      M4      M5      M8      M6       M7    N_W      UNITS
+ Sheet Resistance      0.06    0.07    0.00    0.09     0.01    539     ohms/sq
+ Contact Resistance    1.78    2.09    2.76    2.38     2.50            ohms
+                                                                       
+
+
+CAPACITANCE PARAMETERS       N+        P+       POLY     N_W      UNITS
+ Area (substrate)           902      1028                 962     aF/um^2
+ Area (N+active)                              10929               aF/um^2
+ Area (P+active)                              10344               aF/um^2
+ Area (N+ HA varactor)               2764                         aF/um^2
+ Fringe (substrate)         198       185                         aF/um
+                                                                 
+
+
+
+COMMENTS: DEEP_SUBMICRON
+
+
+
+SPICE BSIM parameters not available.
+
+
+</B></pre>
+</font><a href="ftp://ftp.mosis.com/pub/mosis/vendors/ibm-013/t45n_8lm_dm-params.txt">Download Text File</a>
+
+
+</body>
+</html>

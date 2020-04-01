@@ -1,0 +1,77 @@
+<html>
+<head>
+   <title>MOSIS file ibm-90/t71k_9rf-params.txt</title>
+   <style><!-- PRE {font-size: 11pt; font-weight: 600; font-family: Courier New,Courier; } --></style>
+</head>
+
+
+<body><font SIZE="+1"><pre><B>                                         
+                           MOSIS WAFER ACCEPTANCE TESTS
+                                          
+      RUN: T71K (9RF)                                  VENDOR: IBM-BURLINGTON
+    TECHNOLOGY: SCN009                               FEATURE SIZE: 0.09 microns
+                                   Run type: SKD
+
+
+INTRODUCTION: This report contains the lot average results obtained by MOSIS
+              from measurements of MOSIS test structures on each wafer of
+              this fabrication lot. SPICE parameters obtained from similar
+              measurements on a selected wafer are also attached.
+
+COMMENTS: 9RF_IBM-BURLIN
+
+
+TRANSISTOR PARAMETERS     W/L       N-CHANNEL P-CHANNEL  UNITS
+                                                        
+ MINIMUM                  0.12/0.10                     
+  Vth                                    0.54     -0.51  volts
+                                                        
+ SHORT                    20.0/0.10                     
+  Idss                                 379      -180     uA/um
+  Idss                                 512*              uA/um
+  Vth                                    0.61     -0.58  volts
+                                                        
+ WIDE                     20.0/0.10                     
+  Ids0                                  34.1     -27.8   pA/um
+                                                        
+ LARGE                    20.0/20.0                     
+  Vth                                    0.14     -0.15  volts
+  Vjbkd                                  2.6      -3.0   volts
+  Ijlk                                 &lt;50.0     &lt;50.0   pA
+                                                        
+                                                        
+COMMENTS:
+
+        * Transistor with 5.0 um Poly to source/drain extension
+
+PROCESS PARAMETERS     N+    P+     POLY   P+PLY    M1     M2     M3   UNITS
+ Sheet Resistance       7.2   7.5   7.4   301.9    0.13   0.09   0.08  ohms/sq
+ Contact Resistance    21.0  22.2  16.3                   1.82   3.85  ohms
+                                                                      
+PROCESS PARAMETERS   M4   M5   M6   M7    M8   N_W    RP    LB     M9   UNITS
+ Sheet Resistance   0.08 0.09 0.06 0.06  0.03   449  269.6  0.02  0.04  ohms/sq
+ Contact Resistance 5.48 7.39 7.91 8.41  8.74               8.77  8.79  ohms
+                                                                       
+
+
+CAPACITANCE PARAMETERS       N+        P+       POLY     N_W      UNITS
+ Area (substrate)           725       472                 137     aF/um^2
+ Area (N+active)                              12056               aF/um^2
+ Area (P+active)                              11783               aF/um^2
+ Fringe (substrate)         776      1957                         aF/um
+ Overlap (N+active)                             366               aF/um
+ Overlap (P+active)                             321               aF/um
+                                                                 
+COMMENTS: DEEP_SUBMICRON
+
+
+
+SPICE BSIM parameters not available.
+
+
+</B></pre>
+</font><a href="ftp://ftp.mosis.com/pub/mosis/vendors/ibm-90/t71k_9rf-params.txt">Download Text File</a>
+
+
+</body>
+</html>

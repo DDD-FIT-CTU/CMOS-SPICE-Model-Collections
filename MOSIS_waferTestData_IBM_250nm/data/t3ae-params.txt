@@ -1,0 +1,100 @@
+<html>
+<head>
+   <title>MOSIS file ibm-025/t3ae-params.txt</title>
+   <style><!-- PRE {font-size: 11pt; font-weight: 600; font-family: Courier New,Courier; } --></style>
+</head>
+
+
+<body><font SIZE="+1"><pre><B>                                         
+                          MOSIS PARAMETRIC TEST RESULTS
+                                         
+      RUN: T3AE (6RF)                                        VENDOR: IBM-BURLINGTON
+    TECHNOLOGY: SCN025                               FEATURE SIZE: 0.25 microns
+
+
+INTRODUCTION: This report contains the lot average results obtained by MOSIS
+              from measurements of MOSIS test structures on each wafer of
+              this fabrication lot. SPICE parameters obtained from similar
+              measurements on a selected wafer are also attached.
+
+COMMENTS: 6RF_IBM-BURLIN
+
+
+TRANSISTOR PARAMETERS     W/L       N-CHANNEL P-CHANNEL  UNITS
+                                                        
+ MINIMUM                  0.3/0.24                      
+  Vth                                    0.65     -0.42  volts
+                                                        
+ SHORT                    20.0/0.24                     
+  Idss                                 580      -319     uA/um
+  Vth                                    0.60     -0.44  volts
+  Vpt                                    6.8      -7.4   volts
+                                                        
+ WIDE                     20.0/0.24                     
+  Ids0                                 &lt; 2.5   ****      pA/um
+                                                        
+ LARGE                    50/50                         
+  Vth                                    0.61     -0.50  volts
+  Vjbkd                                  5.0      -5.8   volts
+  Ijlk                                 &lt;50.0     &lt;50.0   pA
+  Gamma                                  0.75      0.74  V^0.5
+                                                        
+ K' (Uo*Cox/2)                         115.6     -25.5   uA/V^2
+ Low-field Mobility                    415.12     91.57  cm^2/V*s
+                                                        
+
+
+PROCESS PARAMETERS    POLY_NON POLY  P+BLK  N+BLK   P+PLY  MTL1  MTL2  UNITS
+ Sheet Resistance      2337.5  4.9    95.7   95.7  201.6   0.15  0.08  ohms/sq
+ Contact Resistance            5.3                               1.92  ohms
+ Gate Oxide Thickness    62                                            angstrom
+
+PROCESS PARAMETERS            MTL3      MTL4      MTL5  UNITS
+ Sheet Resistance             0.08      0.06      0.01  ohms/sq
+ Contact Resistance           2.59      4.01      4.28  ohms
+
+COMMENTS: BLK is silicide block.
+
+
+&#12;
+CAPACITANCE PARAMETERS   N+   P+   POLY   Q4  M1  M2  M3  M4  M5  N_W   UNITS
+ Area (substrate)      1345 1049   103        38  18  10   9   4   309  aF/um^2
+ Area (N+active)                  5527                                  aF/um^2
+ Area (P+active)                  5460                                  aF/um^2
+ Area (poly)                                  73                        aF/um^2
+ Area (metal4)                          1395                            aF/um^2
+ Fringe (substrate)                 61        59  43  30  --  16        aF/um
+ Fringe (poly)                                73                        aF/um
+ Overlap (N+active)              -----                                  aF/um
+ Overlap (P+active)              -----                                  aF/um
+                                                                       
+
+
+CIRCUIT PARAMETERS                            UNITS      
+ Inverters                     K                         
+  Vinv                        1.0       1.14  volts      
+  Vinv                        1.5       1.22  volts      
+  Vol (100 uA)                2.0       0.01  volts      
+  Voh (100 uA)                2.0       2.48  volts      
+  Vinv                        2.0       1.27  volts      
+  Gain                        2.0     -17.93             
+ Ring Oscillator Freq.                                   
+  DIV1024 (31-stg,2.5V)               297.28  MHz        
+  D1024_THK (31-stg,3.3V)             195.37  MHz        
+ Ring Oscillator Power                                   
+  DIV1024 (31-stg,2.5V)                 0.05  uW/MHz/gate
+  D1024_THK (31-stg,3.3V)               0.09  uW/MHz/gate
+                                                         
+COMMENTS: DEEP_SUBMICRON
+
+
+
+SPICE BSIM parameters not available.
+
+
+</B></pre>
+</font><a href="ftp://ftp.mosis.com/pub/mosis/vendors/ibm-025/t3ae-params.txt">Download Text File</a>
+
+
+</body>
+</html>

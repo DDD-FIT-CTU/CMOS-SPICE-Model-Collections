@@ -1,0 +1,36 @@
+.MODEL CMOSN NMOS (                                LEVEL   = 49
++VERSION = 3.1            TNOM    = 27             TOX     = 4.5E-9
++XJ      = 1E-7           NCH     = 2.3549E17      VTH0    = 0.3036711
++K1      = 0.5190254      K2      = -0.0232049     K3      = 1E-3
++K3B     = 4.626394       W0      = 1E-7           NLX     = 2.957659E-7
++DVT0W   = 0              DVT1W   = 0              DVT2W   = 0
++DVT0    = 0.5420326      DVT1    = 0.1921605      DVT2    = -0.5
++U0      = 294.8582602    UA      = -1.283246E-9   UB      = 2.657419E-18
++UC      = 6.424972E-11   VSAT    = 1.384614E5     A0      = 1.083578
++AGS     = 0.2490726      B0      = 1.640361E-6    B1      = 5E-6
++KETA    = -4.985947E-3   A1      = 4.792169E-4    A2      = 0.5740707
++RDSW    = 150            PRWG    = 0.3957282      PRWB    = -0.094828
++WR      = 1              WINT    = 2.132719E-8    LINT    = 1.072289E-8
++DWG     = -3.521661E-9   DWB     = 1.408757E-8    VOFF    = -0.0751783
++NFACTOR = 2.3020117      CIT     = 0              CDSC    = 2.4E-4
++CDSCD   = 0              CDSCB   = 0              ETA0    = 5.542866E-3
++ETAB    = -6.367727E-4   DSUB    = 0.0285938      PCLM    = 1.1977756
++PDIBLC1 = 1              PDIBLC2 = 7.458238E-3    PDIBLCB = -0.1
++DROUT   = 1              PSCBE1  = 7.967815E9     PSCBE2  = 6.197642E-10
++PVAG    = 0              DELTA   = 0.01           RSH     = 6.6
++MOBMOD  = 1              PRT     = 0              UTE     = -1.5
++KT1     = -0.11          KT1L    = 0              KT2     = 0.022
++UA1     = 4.31E-9        UB1     = -7.61E-18      UC1     = -5.6E-11
++AT      = 3.3E4          WL      = 0              WLN     = 1
++WW      = 0              WWN     = 1              WWL     = 0
++LL      = 0              LLN     = 1              LW      = 0
++LWN     = 1              LWL     = 0              CAPMOD  = 2
++XPART   = 0.5            CGDO    = 4.04E-10       CGSO    = 4.04E-10
++CGBO    = 1E-12          CJ      = 8.157114E-4    PB      = 0.808419
++MJ      = 0.5304841      CJSW    = 1.842739E-10   PBSW    = 0.8
++MJSW    = 0.3284329      CJSWG   = 3.3E-10        PBSWG   = 0.8
++MJSWG   = 0.3284329      CF      = 0              PVTH0   = -9.34644E-3
++PRDSW   = 1.9825888      PK2     = 5.924515E-3    WKETA   = -1.135879E-3
++LKETA   = 0.0146484      PU0     = -4.9410435     PUA     = -5E-11
++PUB     = 1.12167E-23    PVSAT   = 993.7773394    PETA0   = -1E-4
++PKETA   = -7.817308E-3    )

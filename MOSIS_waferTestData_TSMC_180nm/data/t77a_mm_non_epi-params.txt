@@ -1,0 +1,205 @@
+<html>
+<head>
+   <title>MOSIS file tsmc-018/t77a_mm_non_epi-params.txt</title>
+   <style><!-- PRE {font-size: 11pt; font-weight: 600; font-family: Courier New,Courier; } --></style>
+</head>
+
+
+<body><font SIZE="+1"><pre><B>                                         
+                           MOSIS WAFER ACCEPTANCE TESTS
+                                         
+          RUN: T77A (MM_NON-EPI)                            VENDOR: TSMC
+   TECHNOLOGY: SCN018                                FEATURE SIZE: 0.18 microns
+                                  Run type: SKD
+
+
+INTRODUCTION: This report contains the lot average results obtained by MOSIS
+              from measurements of MOSIS test structures on each wafer of
+              this fabrication lot. SPICE parameters obtained from similar
+              measurements on a selected wafer are also attached.
+
+COMMENTS: DSCN6M018_TSMC
+
+
+TRANSISTOR PARAMETERS     W/L       N-CHANNEL P-CHANNEL  UNITS
+                                                        
+ MINIMUM                  0.27/0.18                     
+  Vth                                    0.51     -0.50  volts
+                                                        
+ SHORT                    20.0/0.18                     
+  Idss                                 565      -259     uA/um
+  Vth                                    0.51     -0.50  volts
+  Vpt                                    4.8      -5.4   volts
+                                                        
+ WIDE                     20.0/0.18                     
+  Ids0                                  15.2      -8.9   pA/um
+                                                        
+ LARGE                    50/50                         
+  Vth                                    0.43     -0.42  volts
+  Vjbkd                                  3.2      -4.3   volts
+  Ijlk                                 &lt;50.0     &lt;50.0   pA
+                                                        
+ K' (Uo*Cox/2)                         171.6     -35.2   uA/V^2
+ Low-field Mobility                    407.50     83.59  cm^2/V*s
+                                                        
+COMMENTS: Poly bias varies with design technology. To account for mask
+           bias use the appropriate value for the parameters XL and XW
+           in your SPICE model card.
+                       Design Technology                   XL (um)  XW (um)
+                       -----------------                   -------  ------
+                       SCN6M_DEEP (lambda=0.09)             0.00    -0.01
+                                     thick oxide            0.00    -0.01
+                       SCN6M_SUBM (lambda=0.10)            -0.02     0.00
+                                     thick oxide           -0.02     0.00
+
+
+FOX TRANSISTORS           GATE      N+ACTIVE  P+ACTIVE  UNITS
+ Vth                      Poly         &gt;6.6     &lt;-6.6   volts
+
+
+
+PROCESS PARAMETERS     N+    P+    POLY  N+BLK  PLY+BLK    M1     M2   UNITS
+ Sheet Resistance       6.8   7.5  7.9    61.7   331.5    0.08   0.08  ohms/sq
+ Contact Resistance    10.4  10.8  9.7                           5.05  ohms
+ Gate Oxide Thickness  41                                              angstrom
+                                                                      
+PROCESS PARAMETERS      M3   POLY_HRI     M4      M5      M6    N_W     UNITS
+ Sheet Resistance      0.08   1098.8     0.08    0.07    0.03    950    ohms/sq
+ Contact Resistance   10.75             15.87   20.15   22.15           ohms
+                                                                       
+COMMENTS: BLK is silicide block.
+
+
+CAPACITANCE PARAMETERS  N+   P+  POLY M1 M2 M3 M4 M5 M6 R_W  D_N_W  M5P N_W  UNITS
+ Area (substrate)      938 1187   99  33 14  8  6  5  3        119       119 aF/um^2
+ Area (N+active)                8364  52 19 13 10  9  8                      aF/um^2
+ Area (P+active)                8093                                         aF/um^2
+ Area (poly)                          63 17 10  7  5  4                      aF/um^2
+ Area (metal1)                           36 14  9  6  5                      aF/um^2
+ Area (metal2)                              36 14  9  6                      aF/um^2
+ Area (metal3)                                 37 15  9                      aF/um^2
+ Area (metal4)                                    36 14                      aF/um^2
+ Area (metal5)                                       36            1027      aF/um^2
+ Area (r well)         925                                                   aF/um^2
+ Area (d well)                                           564                 aF/um^2
+ Area (no well)        130                                                   aF/um^2
+ Fringe (substrate)    197  222       40 35 29 21 14 15                      aF/um
+ Fringe (poly)                        63 39 29 23 20 17                      aF/um
+ Fringe (metal1)                         54 34    22 19                      aF/um
+ Fringe (metal2)                            51 35 27 22                      aF/um
+ Fringe (metal3)                               54 34 28                      aF/um
+ Fringe (metal4)                                  58 35                      aF/um
+ Fringe (metal5)                                     54                      aF/um
+ Overlap (N+active)              828                                         aF/um
+ Overlap (P+active)              779                                         aF/um
+                                                                            
+
+
+CIRCUIT PARAMETERS                            UNITS      
+ Inverters                     K                         
+  Vinv                        1.0       0.75  volts      
+  Vinv                        1.5       0.79  volts      
+  Vol (100 uA)                2.0       0.09  volts      
+  Voh (100 uA)                2.0       1.62  volts      
+  Vinv                        2.0       0.83  volts      
+  Gain                        2.0     -25.26             
+ Ring Oscillator Freq.                                   
+  D1024_THK (31-stg,3.3V)             292.38  MHz        
+  DIV1024 (31-stg,1.8V)               351.70  MHz        
+ Ring Oscillator Power                                   
+  D1024_THK (31-stg,3.3V)               0.07  uW/MHz/gate
+  DIV1024 (31-stg,1.8V)                 0.02  uW/MHz/gate
+                                                         
+COMMENTS: DEEP_SUBMICRON
+
+
+
+
+&#12; T77A SPICE BSIM3 VERSION 3.1 PARAMETERS
+
+SPICE 3f5 Level 8, Star-HSPICE Level 49, UTMOST Level 8
+
+* DATE: Oct  3/07
+* LOT: T77A                  WAF: 1003
+* Temperature_parameters=Default
+.MODEL CMOSN NMOS (                                LEVEL   = 49
++VERSION = 3.1            TNOM    = 27             TOX     = 4.1E-9
++XJ      = 1E-7           NCH     = 2.3549E17      VTH0    = 0.3647749
++K1      = 0.5815814      K2      = 6.025001E-3    K3      = 1E-3
++K3B     = 1.4745568      W0      = 1E-7           NLX     = 1.632187E-7
++DVT0W   = 0              DVT1W   = 0              DVT2W   = 0
++DVT0    = 1.4728771      DVT1    = 0.4373426      DVT2    = 0.0213359
++U0      = 265.6444712    UA      = -1.423009E-9   UB      = 2.335093E-18
++UC      = 5.245012E-11   VSAT    = 9.412881E4     A0      = 1.8428561
++AGS     = 0.4038804      B0      = 5.524599E-7    B1      = 5E-6
++KETA    = -7.935044E-3   A1      = 0.8            A2      = 0.8804594
++RDSW    = 105            PRWG    = 0.4944853      PRWB    = -0.2
++WR      = 1              WINT    = 2.60605E-9     LINT    = 1.939129E-8
++XL      = 0              XW      = -1E-8          DWG     = -2.843075E-9
++DWB     = 2.865387E-9    VOFF    = -0.0894361     NFACTOR = 2.3051876
++CIT     = 0              CDSC    = 2.4E-4         CDSCD   = 0
++CDSCB   = 0              ETA0    = 2.398164E-3    ETAB    = 3.392679E-5
++DSUB    = 8.234246E-3    PCLM    = 0.7444877      PDIBLC1 = 0.185852
++PDIBLC2 = 3.274134E-3    PDIBLCB = -0.1           DROUT   = 0.7550884
++PSCBE1  = 8E10           PSCBE2  = 1.726969E-9    PVAG    = 1.068222E-3
++DELTA   = 0.01           RSH     = 6.8            MOBMOD  = 1
++PRT     = 0              UTE     = -1.5           KT1     = -0.11
++KT1L    = 0              KT2     = 0.022          UA1     = 4.31E-9
++UB1     = -7.61E-18      UC1     = -5.6E-11       AT      = 3.3E4
++WL      = 0              WLN     = 1              WW      = 0
++WWN     = 1              WWL     = 0              LL      = 0
++LLN     = 1              LW      = 0              LWN     = 1
++LWL     = 0              CAPMOD  = 2              XPART   = 0.5
++CGDO    = 8.28E-10       CGSO    = 8.28E-10       CGBO    = 1E-12
++CJ      = 9.427065E-4    PB      = 0.8            MJ      = 0.3709737
++CJSW    = 1.928292E-10   PBSW    = 0.7            MJSW    = 0.1902367
++CJSWG   = 3.3E-10        PBSWG   = 0.7            MJSWG   = 0.1902367
++CF      = 0              PVTH0   = 3.643308E-5    PRDSW   = -0.8968745
++PK2     = 3.285774E-4    WKETA   = -5.791315E-4   LKETA   = -0.0101627
++PU0     = 10.0548745     PUA     = 1.901573E-11   PUB     = 1.831424E-24
++PVSAT   = 1.433548E3     PETA0   = 5.358064E-5    PKETA   = 1.519426E-3     )
+*
+.MODEL CMOSP PMOS (                                LEVEL   = 49
++VERSION = 3.1            TNOM    = 27             TOX     = 4.1E-9
++XJ      = 1E-7           NCH     = 4.1589E17      VTH0    = -0.3887191
++K1      = 0.5899188      K2      = 0.0207529      K3      = 0.0996803
++K3B     = 4.9079533      W0      = 1E-6           NLX     = 7.820782E-8
++DVT0W   = 0              DVT1W   = 0              DVT2W   = 0
++DVT0    = 0.5500873      DVT1    = 0.3455653      DVT2    = 0.1
++U0      = 109.7547017    UA      = 1.381876E-9    UB      = 1.115366E-21
++UC      = -1E-10         VSAT    = 1.558387E5     A0      = 1.8416644
++AGS     = 0.404121       B0      = 2.986627E-7    B1      = 5.817037E-7
++KETA    = 0.0173044      A1      = 0.4159329      A2      = 0.4467425
++RDSW    = 224.0543155    PRWG    = 0.5            PRWB    = -0.0577039
++WR      = 1              WINT    = 0              LINT    = 2.948671E-8
++XL      = 0              XW      = -1E-8          DWG     = -2.393677E-8
++DWB     = -9.12926E-10   VOFF    = -0.086012      NFACTOR = 2
++CIT     = 0              CDSC    = 2.4E-4         CDSCD   = 0
++CDSCB   = 0              ETA0    = 0.1514642      ETAB    = -0.0631443
++DSUB    = 1.0119856      PCLM    = 0.6710126      PDIBLC1 = 1.052378E-3
++PDIBLC2 = 0.016329       PDIBLCB = -1E-3          DROUT   = 9.803072E-4
++PSCBE1  = 1.718561E9     PSCBE2  = 5E-10          PVAG    = 14.8638824
++DELTA   = 0.01           RSH     = 7.5            MOBMOD  = 1
++PRT     = 0              UTE     = -1.5           KT1     = -0.11
++KT1L    = 0              KT2     = 0.022          UA1     = 4.31E-9
++UB1     = -7.61E-18      UC1     = -5.6E-11       AT      = 3.3E4
++WL      = 0              WLN     = 1              WW      = 0
++WWN     = 1              WWL     = 0              LL      = 0
++LLN     = 1              LW      = 0              LWN     = 1
++LWL     = 0              CAPMOD  = 2              XPART   = 0.5
++CGDO    = 7.79E-10       CGSO    = 7.79E-10       CGBO    = 1E-12
++CJ      = 1.17722E-3     PB      = 0.8611654      MJ      = 0.4184273
++CJSW    = 1.924705E-10   PBSW    = 0.9275508      MJSW    = 0.3248627
++CJSWG   = 4.22E-10       PBSWG   = 0.9275508      MJSWG   = 0.3248627
++CF      = 0              PVTH0   = 2.665377E-3    PRDSW   = 9.5152385
++PK2     = 2.387138E-3    WKETA   = 0.0143424      LKETA   = -3.279135E-3
++PU0     = -2.0258474     PUA     = -7.30986E-11   PUB     = 1.973019E-22
++PVSAT   = 50             PETA0   = 1E-4           PKETA   = -5.502283E-4    )
+*
+
+</B></pre>
+</font><a href="ftp://ftp.mosis.com/pub/mosis/vendors/tsmc-018/t77a_mm_non_epi-params.txt">Download Text File</a>
+
+
+</body>
+</html>

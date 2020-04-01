@@ -1,0 +1,91 @@
+<html>
+<head>
+   <title>MOSIS file ibm-90/t83x_9lprf_8m_lb-params.txt</title>
+   <style><!-- PRE {font-size: 11pt; font-weight: 600; font-family: Courier New,Courier; } --></style>
+</head>
+
+
+<body><font SIZE="+1"><pre><B>                                         
+                           MOSIS WAFER ACCEPTANCE TESTS
+                                          
+     RUN: T83X (9LPRF_8M_LB)                           VENDOR: IBM-BURLINGTON
+   TECHNOLOGY: SCN009                                FEATURE SIZE: 0.09 microns
+                                   Run type: SKD
+
+
+INTRODUCTION: This report contains the lot average results obtained by MOSIS
+              from measurements of MOSIS test structures on each wafer of
+              this fabrication lot. SPICE parameters obtained from similar
+              measurements on a selected wafer are also attached.
+
+COMMENTS: 9RF_IBM-BURLIN
+
+
+TRANSISTOR PARAMETERS     W/L       N-CHANNEL P-CHANNEL  UNITS
+                                                        
+ MINIMUM                  0.12/0.10                     
+  Vth                                    0.51     -0.46  volts
+                                                        
+ SHORT                    20.0/0.10                     
+  Idss                                 377      -201     uA/um
+  Idss                                 490*              uA/um
+  Vth                                    0.63     -0.56  volts
+  Vpt                                    2.8      -2.5   volts
+                                                        
+ WIDE                     20.0/0.10                     
+  Ids0                                  30.4    -129.1   pA/um
+                                                        
+ LARGE                    20.0/20.0                     
+  Vth                                    0.21     -0.19  volts
+  Vjbkd                                  2.6      -3.1   volts
+  Ijlk                                 &lt;50.0     &lt;50.0   pA
+                                                        
+        * Transistor with 1.44 um Poly to source/drain extension
+
+
+PROCESS PARAMETERS     N+    P+     POLY   P+PLY    LB     M1     M2   UNITS
+ Sheet Resistance       7.3   8.1   7.5   296.6    0.03   0.11   0.07  ohms/sq
+ Contact Resistance    21.3  22.9  17.0                          1.88  ohms
+ Gate Oxide Thickness  28                                              angstrom
+                                                                      
+PROCESS PARAMETERS   M3   M4   M8   M5   RP    M6   TaN  M7  N_W   UNITS
+ Sheet Resistance   0.07 0.07 0.06 0.07 265.6 0.07      0.06  472  ohms/sq
+ Contact Resistance 3.54 5.25      7.61       9.39                 ohms
+                                                                          
+
+CAPACITANCE PARAMETERS    N+     P+     POLY   D_N_W    R_W     N_W     UNITS
+ Area (substrate)        891    474              245             257    aF/um^2
+ Area (N+active)                      12192                             aF/um^2
+ Area (P+active)                      11542                             aF/um^2
+ Area (r well)           962                                            aF/um^2
+ Area (d well)                                          1033            aF/um^2
+ Area (N+ HA varactor)         2259                                     aF/um^2
+                                                                       
+CIRCUIT PARAMETERS                            UNITS      
+ Inverters                     K                         
+  Vinv                        1.0       0.58  volts      
+  Vinv                        1.5       0.59  volts      
+  Vol (100 uA)                2.0       0.01  volts      
+  Voh (100 uA)                2.0       1.18  volts      
+  Vinv                        2.0       0.60  volts      
+  Gain                        2.0     -14.20             
+ Ring Oscillator Freq.                                   
+  DIV1024 (31-stg,1.2V)               475.74  MHz        
+  D1024_THK (31-stg,2.5V)             372.60  MHz        
+ Ring Oscillator Power                                   
+  DIV1024 (31-stg,1.2V)                 3.00  nW/MHz/gate
+  D1024_THK (31-stg,2.5V)              34.54  nW/MHz/gate
+                                                         
+COMMENTS: DEEP_SUBMICRON
+
+
+
+SPICE BSIM parameters not available.
+
+
+</B></pre>
+</font><a href="ftp://ftp.mosis.com/pub/mosis/vendors/ibm-90/t83x_9lprf_8m_lb-params.txt">Download Text File</a>
+
+
+</body>
+</html>

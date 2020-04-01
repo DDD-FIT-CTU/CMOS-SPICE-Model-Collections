@@ -1,0 +1,94 @@
+<html>
+<head>
+   <title>MOSIS file ibm-90/t76c_9lprf_5-params.txt</title>
+   <style><!-- PRE {font-size: 11pt; font-weight: 600; font-family: Courier New,Courier; } --></style>
+</head>
+
+
+<body><font SIZE="+1"><pre><B>                                         
+                           MOSIS WAFER ACCEPTANCE TESTS
+                                          
+     RUN: T76C (9LPRF_5_02)                            VENDOR: IBM-BURLINGTON
+   TECHNOLOGY: SCN009                                FEATURE SIZE: 0.09 microns
+                                   Run type: SKD
+
+
+INTRODUCTION: This report contains the lot average results obtained by MOSIS
+              from measurements of MOSIS test structures on each wafer of
+              this fabrication lot. SPICE parameters obtained from similar
+              measurements on a selected wafer are also attached.
+
+COMMENTS: 9RF_IBM-BURLIN
+
+
+TRANSISTOR PARAMETERS     W/L       N-CHANNEL P-CHANNEL  UNITS
+                                                        
+ MINIMUM                  0.12/0.10                     
+  Vth                                    0.58     -0.49  volts
+                                                        
+ SHORT                    20.0/0.10                     
+  Idss                                 337      -172     uA/um
+  Idss                                 440*              uA/um
+  Vth                                    0.64     -0.58  volts
+  Vpt                                    3.1      -3.2   volts
+                                                        
+ WIDE                     20.0/0.10                     
+  Ids0                                   9.4     -27.0   pA/um
+                                                        
+ LARGE                    20.0/20.0                     
+  Vth                                    0.17     -0.15  volts
+  Vjbkd                                  2.6      -3.1   volts
+  Ijlk                                 &lt;50.0     &lt;50.0   pA
+                                                        
+                                                        
+
+        * Transistor with 5.0 um Poly to source/drain extension
+
+PROCESS PARAMETERS     N+    P+     POLY   P+PLY    M1     M2     M3   UNITS
+ Sheet Resistance       7.1   7.4   7.3   301.7    0.14   0.09   0.08  ohms/sq
+ Contact Resistance    21.2  21.8  16.7                   1.92   3.21  ohms
+                                                                      
+PROCESS PARAMETERS     M4      M5       M6      M7    N_W      LB   UNITS
+ Sheet Resistance     0.08    0.08     0.06    0.06    420    0.02  ohms/sq
+ Contact Resistance   5.05    7.51     6.98    8.07           7.88  ohms
+                                                                       
+
+
+CAPACITANCE PARAMETERS       N+        P+       POLY     N_W      UNITS
+ Area (substrate)           733       431                 128     aF/um^2
+ Area (N+active)                              11887               aF/um^2
+ Area (P+active)                              11317               aF/um^2
+ Fringe (substrate)         769      1969                         aF/um
+ Overlap (N+active)                             348               aF/um
+ Overlap (P+active)                             338               aF/um
+                                                                 
+
+
+CIRCUIT PARAMETERS                            UNITS      
+ Inverters                     K                         
+  Vinv                        1.0       0.58  volts      
+  Vinv                        1.5       0.59  volts      
+  Vol (100 uA)                2.0       0.01  volts      
+  Voh (100 uA)                2.0       1.19  volts      
+  Vinv                        2.0       0.58  volts      
+  Gain                        2.0     -15.21             
+ Ring Oscillator Freq.                                   
+  DIV1024 (31-stg,1.2V)               476.79  MHz        
+  D1024_THK (31-stg,2.5V)             374.70  MHz        
+ Ring Oscillator Power                                   
+  DIV1024 (31-stg,1.2V)                 3.06  nW/MHz/gate
+  D1024_THK (31-stg,2.5V)              35.39  nW/MHz/gate
+                                                         
+COMMENTS: DEEP_SUBMICRON
+
+
+
+SPICE BSIM parameters not available.
+
+
+</B></pre>
+</font><a href="ftp://ftp.mosis.com/pub/mosis/vendors/ibm-90/t76c_9lprf_5-params.txt">Download Text File</a>
+
+
+</body>
+</html>

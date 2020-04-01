@@ -1,0 +1,86 @@
+<html>
+<head>
+   <title>MOSIS file ibm-90/t71e_9sf-params.txt</title>
+   <style><!-- PRE {font-size: 11pt; font-weight: 600; font-family: Courier New,Courier; } --></style>
+</head>
+
+
+<body><font SIZE="+1"><pre><B>                                         
+                           MOSIS WAFER ACCEPTANCE TESTS
+                                         
+      RUN: T71E (9SF)                                  VENDOR: IBM-BURLINGTON
+    TECHNOLOGY: SCN009                               FEATURE SIZE: 0.09 microns
+                                  Run type: SKD
+
+
+INTRODUCTION: This report contains the lot average results obtained by MOSIS
+              from measurements of MOSIS test structures on each wafer of
+              this fabrication lot. SPICE parameters obtained from similar
+              measurements on a selected wafer are also attached.
+
+COMMENTS: 9SF_IBM-BURLIN
+
+
+TRANSISTOR PARAMETERS     W/L       N-CHANNEL P-CHANNEL  UNITS
+                                                        
+ MINIMUM                  0.12/0.08                     
+  Vth                                    0.40     -0.45  volts
+                                                        
+ SHORT                    20.0/0.08                     
+  Idss                                 343      -147     uA/um
+  Idss                                 448*              uA/um
+
+  Vth                                    0.47     -0.46  volts
+                                                        
+ WIDE                     20.0/0.08                     
+  Ids0                                 748.5    -252.7   pA/um
+                                                        
+ LARGE                    20.0/20.0                     
+  Vth                                    0.37     -0.29  volts
+  Vjbkd                                  2.1      -2.4   volts
+  Ijlk                                  79.2     &lt;50.0   pA
+                                                        
+                                                        
+COMMENTS:
+
+        * Transistor with 5.0 um Poly to source/drain extension
+
+PROCESS PARAMETERS      N+    P+     POLY   P+PLY   M1     M2     M3   UNITS
+ Sheet Resistance        7.4   7.8   7.6   311.4   0.12   0.08   0.08  ohms/sq
+ Contact Resistance     20.4  21.9  15.5                  1.38   2.75  ohms
+                                                                      
+PROCESS PARAMETERS    M4    M5     M6    M7   N_W     RP      LB   UNITS
+ Sheet Resistance    0.10  0.09   0.06  0.06   462           0.02  ohms/sq
+ Contact Resistance  4.36  5.61   5.92  6.88                 6.40  ohms
+                                                                       
+
+
+CAPACITANCE PARAMETERS       P+       POLY     N_W      UNITS
+ Area (substrate)           165                  74     aF/um^2
+                                                       
+
+
+CIRCUIT PARAMETERS                            UNITS      
+ Inverters                     K                         
+  Vinv                        1.0       0.41  volts      
+  Vinv                        1.5       0.43  volts      
+  Vol (100 uA)                2.0       0.01  volts      
+  Voh (100 uA)                2.0       0.98  volts      
+  Vinv                        2.0       0.44  volts      
+  Gain                        2.0     -26.58             
+ Ring Oscillator Freq.                                   
+  DIV1024 (31-stg,1.0V)               363.57  MHz        
+ Ring Oscillator Power                                   
+  DIV1024 (31-stg,1.0V)                 2.58  nW/MHz/gate
+                                                         
+COMMENTS: DEEP_SUBMICRON
+
+
+
+SPICE BSIM parameters not available.
+</B></pre>
+</font><a href="ftp://ftp.mosis.com/pub/mosis/vendors/ibm-90/t71e_9sf-params.txt">Download Text File</a>
+
+
+</body>
+</html>

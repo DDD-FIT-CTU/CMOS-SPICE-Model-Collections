@@ -1,0 +1,176 @@
+<html>
+<head>
+   <title>MOSIS file ibm-025/t49f_6hp-params.txt</title>
+   <style><!-- PRE {font-size: 11pt; font-weight: 600; font-family: Courier New,Courier; } --></style>
+</head>
+
+
+<body><font SIZE="+1"><pre><B>                                         
+                           MOSIS WAFER ACCEPTANCE TESTS
+                                          
+      RUN: T49F (6HP)                                  VENDOR: IBM-BURLINGTON
+    TECHNOLOGY: SIGE025                              FEATURE SIZE: 0.25 microns
+
+
+INTRODUCTION: This report contains the lot average results obtained by MOSIS
+              from measurements of MOSIS test structures on each wafer of
+              this fabrication lot. SPICE parameters obtained from similar
+              measurements on a selected wafer are also attached.
+
+COMMENTS: SIGE6HP_IBM-BU
+
+
+TRANSISTOR PARAMETERS     W/L       N-CHANNEL P-CHANNEL  UNITS
+                                                        
+ MINIMUM                  0.3/0.24                      
+  Vth                                    0.62     -0.44  volts
+                                                        
+ SHORT                    20.0/0.24                     
+  Idss                                 535      -237     uA/um
+  Vth                                    0.60     -0.48  volts
+  Vpt                                    7.4      -7.2   volts
+                                                        
+ WIDE                     20.0/0.24                     
+  Ids0                                 &lt; 2.5   -6.0      pA/um
+                                                        
+ LARGE                    50/50                         
+  Vth                                    0.60     -0.50  volts
+  Vjbkd                                  5.1      -5.8   volts
+  Ijlk                                 &lt;50.0     &lt;50.0   pA
+  Gamma                                  0.73      0.79  V^0.5
+                                                        
+ K' (Uo*Cox/2)                         116.2     -26.2   uA/V^2
+ Low-field Mobility                    417.28     94.08  cm^2/V*s
+                                                        
+
+
+PROCESS PARAMETERS     N+     P+     POLY    M1     M2     M3     M4   UNITS
+ Sheet Resistance       5.4    4.9   5.1    0.15   0.09   0.08   0.08  ohms/sq
+ Contact Resistance     6.2    5.8   5.3           1.65   2.75   3.83  ohms
+ Gate Oxide Thickness  62                                              angstrom
+                                                                      
+PROCESS PARAMETERS             M5        M6   UNITS
+ Sheet Resistance             0.06      0.01  ohms/sq
+ Contact Resistance           4.90      5.18  ohms
+                                             
+
+
+&#12;
+CAPACITANCE PARAMETERS  N+   P+   POLY M1 M2 M3 M4 M5 M6   Q4   Q5  Q4_M4 N_W  UNITS
+ Area (substrate)      939 1069   106  30 15  9  7  7  1                   117 aF/um^2
+ Area (N+active)                 5567                                          aF/um^2
+ Area (P+active)                 5527                                          aF/um^2
+ Area (poly)                           50                                      aF/um^2
+ Area (metal4)                                           1311                  aF/um^2
+ Area (metal5)                                                1327             aF/um^2
+ Area (NMOS Cap)                 3023                                          aF/um^2
+ Area (Q5_M5)                                                      2631        aF/um^2
+ Fringe (substrate)     70        131  12                                      aF/um
+ Fringe (poly)                         67                                      aF/um
+ Overlap (N+active)             -----                                          aF/um
+ Overlap (P+active)             -----                                          aF/um
+                                                                              
+
+
+CIRCUIT PARAMETERS                            UNITS      
+ Inverters                     K                         
+  Vinv                        1.0       1.12  volts      
+  Vinv                        1.5       1.20  volts      
+  Vol (100 uA)                2.0       0.01  volts      
+  Voh (100 uA)                2.0       2.48  volts      
+  Vinv                        2.0       1.24  volts      
+  Gain                        2.0     -21.29             
+ Ring Oscillator Freq.                                   
+  DIV1024 (31-stg,2.5V)               254.35  MHz        
+ Ring Oscillator Power                                   
+  DIV1024 (31-stg,2.5V)                 0.05  uW/MHz/gate
+                                                         
+COMMENTS: DEEP_SUBMICRON
+
+
+
+
+&#12; T49F SPICE BSIM3 VERSION 3.1 PARAMETERS
+
+SPICE 3f5 Level 8, Star-HSPICE Level 49, UTMOST Level 8
+
+* DATE: Jan 11/05
+* LOT: T49F                  WAF: 1002
+* Temperature_parameters=Default
+.MODEL CMOSN NMOS (                                LEVEL   = 49
++VERSION = 3.1            TNOM    = 27             TOX     = 6.2E-9
++XJ      = 1E-7           NCH     = 2.3549E17      VTH0    = 0.5580995
++K1      = 0.7673241      K2      = 6.591709E-5    K3      = 7.0073532
++K3B     = -10            W0      = 3.505913E-6    NLX     = 9.524356E-8
++DVT0W   = 0              DVT1W   = 0              DVT2W   = 0
++DVT0    = 1.1048152      DVT1    = 0.4815406      DVT2    = -0.5
++U0      = 346.6530086    UA      = -9.60119E-10   UB      = 2.794644E-18
++UC      = 7.090744E-11   VSAT    = 1.586342E5     A0      = 1.0339973
++AGS     = 0.139844       B0      = 5.091767E-7    B1      = 4.777741E-6
++KETA    = 7.053158E-3    A1      = 8.066987E-5    A2      = 0.4032528
++RDSW    = 200            PRWG    = 0.3703284      PRWB    = -0.2
++WR      = 1              WINT    = 1.475349E-8    LINT    = 2.187691E-8
++DWG     = -7.417089E-9   DWB     = -1.755522E-8   VOFF    = -0.1130628
++NFACTOR = 2.1448986      CIT     = 0              CDSC    = 2.4E-4
++CDSCD   = 0              CDSCB   = 0              ETA0    = 1.128763E-4
++ETAB    = -8.506594E-5   DSUB    = 0.0312064      PCLM    = 0.1736612
++PDIBLC1 = 1              PDIBLC2 = 1.412596E-3    PDIBLCB = -0.0428952
++DROUT   = 0.9937143      PSCBE1  = 3.868638E8     PSCBE2  = 8.306926E-7
++PVAG    = 0              DELTA   = 0.01           RSH     = 5.4
++MOBMOD  = 1              PRT     = 0              UTE     = -1.5
++KT1     = -0.11          KT1L    = 0              KT2     = 0.022
++UA1     = 4.31E-9        UB1     = -7.61E-18      UC1     = -5.6E-11
++AT      = 3.3E4          WL      = 0              WLN     = 1
++WW      = 0              WWN     = 1              WWL     = 0
++LL      = 0              LLN     = 1              LW      = 0
++LWN     = 1              LWL     = 0              CAPMOD  = 2
++XPART   = 0.5            CGDO    = 6E-10          CGSO    = 6E-10
++CGBO    = 3.2E-11        CJ      = 9.333988E-4    PB      = 0.8
++MJ      = 0.3621257      CJSW    = 1E-10          PBSW    = 0.935729
++MJSW    = 0.3162985      CJSWG   = 3.29E-10       PBSWG   = 0.935729
++MJSWG   = 0.3162985      CF      = 0              PVTH0   = -3.902558E-3
++PRDSW   = -8.3409814     PK2     = 3.302847E-4    WKETA   = -3.999887E-3
++LKETA   = -1.517719E-3    )
+*
+.MODEL CMOSP PMOS (                                LEVEL   = 49
++VERSION = 3.1            TNOM    = 27             TOX     = 6.2E-9
++XJ      = 1E-7           NCH     = 4.1589E17      VTH0    = -0.4720708
++K1      = 0.8652408      K2      = -5.736973E-4   K3      = 0
++K3B     = 17.2690436     W0      = 1E-6           NLX     = 2.205868E-8
++DVT0W   = 0              DVT1W   = 0              DVT2W   = 0
++DVT0    = 1.7984643      DVT1    = 1              DVT2    = -0.3
++U0      = 104.6568104    UA      = 9.877105E-10   UB      = 1.710928E-21
++UC      = -1E-10         VSAT    = 9.664876E4     A0      = 1.178034
++AGS     = 0.1895336      B0      = 1.336905E-7    B1      = 1.839892E-6
++KETA    = -2.275359E-3   A1      = 0.1215038      A2      = 0.3
++RDSW    = 1.896743E3     PRWG    = -0.0502145     PRWB    = -0.0259642
++WR      = 1              WINT    = 0              LINT    = 4.256848E-8
++DWG     = -2.07498E-8    DWB     = -7.296679E-9   VOFF    = -0.1319263
++NFACTOR = 1.111274       CIT     = 0              CDSC    = 2.4E-4
++CDSCD   = 0              CDSCB   = 0              ETA0    = 1.038265E-3
++ETAB    = -0.1077694     DSUB    = 0.8529806      PCLM    = 0.6935605
++PDIBLC1 = 0.0251105      PDIBLC2 = 4.835307E-3    PDIBLCB = -1E-3
++DROUT   = 0.3268451      PSCBE1  = 6.330945E10    PSCBE2  = 4.650108E-9
++PVAG    = 0              DELTA   = 0.01           RSH     = 4.9
++MOBMOD  = 1              PRT     = 0              UTE     = -1.5
++KT1     = -0.11          KT1L    = 0              KT2     = 0.022
++UA1     = 4.31E-9        UB1     = -7.61E-18      UC1     = -5.6E-11
++AT      = 3.3E4          WL      = 0              WLN     = 1
++WW      = 0              WWN     = 1              WWL     = 0
++LL      = 0              LLN     = 1              LW      = 0
++LWN     = 1              LWL     = 0              CAPMOD  = 2
++XPART   = 0.5            CGDO    = 8E-10          CGSO    = 8E-10
++CGBO    = 3.2E-11        CJ      = 1.050245E-3    PB      = 0.8453442
++MJ      = 0.3982694      CJSW    = 1E-10          PBSW    = 0.8
++MJSW    = 0.6            CJSWG   = 2.5E-10        PBSWG   = 0.8
++MJSWG   = 0.6            CF      = 0              PVTH0   = 2.446699E-3
++PRDSW   = 6.6388006      PK2     = 1.589898E-3    WKETA   = 0.0309944
++LKETA   = -0.0121499      )
+*
+
+</B></pre>
+</font><a href="ftp://ftp.mosis.com/pub/mosis/vendors/ibm-025/t49f_6hp-params.txt">Download Text File</a>
+
+
+</body>
+</html>

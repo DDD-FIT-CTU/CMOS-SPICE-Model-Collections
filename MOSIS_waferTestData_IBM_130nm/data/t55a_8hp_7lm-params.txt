@@ -1,0 +1,97 @@
+<html>
+<head>
+   <title>MOSIS file ibm-013/t55a_8hp_7lm-params.txt</title>
+   <style><!-- PRE {font-size: 11pt; font-weight: 600; font-family: Courier New,Courier; } --></style>
+</head>
+
+
+<body><font SIZE="+1"><pre><B>                                         
+                           MOSIS WAFER ACCEPTANCE TESTS
+                                          
+      RUN: T55A (8HP_7LM)                              VENDOR: IBM-BURLINGTON
+    TECHNOLOGY: SIGE013                              FEATURE SIZE: 0.13 microns
+                                                    
+
+
+INTRODUCTION: This report contains the lot average results obtained by MOSIS
+              from measurements of MOSIS test structures on each wafer of
+              this fabrication lot. SPICE parameters obtained from similar
+              measurements on a selected wafer are also attached.
+
+COMMENTS: SIGE8HP_IBM-BU
+
+
+TRANSISTOR PARAMETERS     W/L       N-CHANNEL P-CHANNEL  UNITS
+                                                        
+ MINIMUM                  0.16/0.12                     
+  Vth                                    0.42     -0.43  volts
+                                                        
+ SHORT                    20.0/0.12                     
+  Idss                                 424      -187     uA/um
+  Vth                                    0.47     -0.43  volts
+  Vpt                                    3.3      -3.8   volts
+                                                        
+ WIDE                     20.0/0.12                     
+  Ids0                                 184.8    -176.8   pA/um
+                                                        
+ LARGE                    50/50                         
+  Vth                                    0.10     -0.25  volts
+  Vjbkd                                  2.6      -3.1   volts
+  Ijlk                                 &lt;50.0     &lt;50.0   pA
+  Gamma                                  0.25      0.27  V^0.5
+                                                        
+ K' (Uo*Cox/2)                         288.6     -44.9   uA/V^2
+ Low-field Mobility                    534.90     83.22  cm^2/V*s
+                                                        
+
+
+PROCESS PARAMETERS     N+    P+      POLY    M1     M2     M3     M4   UNITS
+ Sheet Resistance       3.5   6.4    6.8    0.08   0.05   0.05   0.06  ohms/sq
+ Contact Resistance    12.3  11.7   10.3           0.73   1.47   2.13  ohms
+ Gate Oxide Thickness  32                                              angstrom
+                                                                      
+PROCESS PARAMETERS   M5   M6  POLY_NON  M7  N_W  PPLY+BLK N+BLK TaN  NS   UNITS
+ Sheet Resistance   0.04 0.02          0.01  516   328.0   77.6 59.1  9.3 ohms/sq
+ Contact Resistance 2.36 2.70          3.09                               ohms
+                                                
+COMMENTS: BLK is silicide block.
+
+
+CAPACITANCE PARAMETERS     N+    D_N_W       P+       POLY     N_W      UNITS
+ Area (substrate)         938              1160                1002     aF/um^2
+ Area (N+active)                                    10689               aF/um^2
+ Area (P+active)                                    10030               aF/um^2
+ Area (r well)            551                                           aF/um^2
+ Area (N+ HA varactor)                     2495                         aF/um^2
+ Fringe (substrate)       114               127                         aF/um
+                                                                       
+
+
+CIRCUIT PARAMETERS                            UNITS      
+ Inverters                     K                         
+  Vinv                        1.0       0.50  volts      
+  Vinv                        1.5       0.53  volts      
+  Vol (100 uA)                2.0       0.01  volts      
+  Voh (100 uA)                2.0       1.19  volts      
+  Vinv                        2.0       0.57  volts      
+  Gain                        2.0     -18.70             
+ Ring Oscillator Freq.                                   
+  DIV1024 (31-stg,1.2V)               371.32  MHz        
+  D1024_THK (31-stg,2.5V)             292.98  MHz        
+ Ring Oscillator Power                                   
+  DIV1024 (31-stg,1.2V)                 0.01  uW/MHz/gate
+  D1024_THK (31-stg,2.5V)               0.03  uW/MHz/gate
+                                                         
+COMMENTS: DEEP_SUBMICRON
+
+
+
+SPICE BSIM parameters not available.
+
+
+</B></pre>
+</font><a href="ftp://ftp.mosis.com/pub/mosis/vendors/ibm-013/t55a_8hp_7lm-params.txt">Download Text File</a>
+
+
+</body>
+</html>

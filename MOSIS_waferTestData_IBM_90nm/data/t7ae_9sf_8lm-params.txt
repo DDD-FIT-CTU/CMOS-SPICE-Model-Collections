@@ -1,0 +1,87 @@
+<html>
+<head>
+   <title>MOSIS file ibm-90/t7ae_9sf_8lm-params.txt</title>
+   <style><!-- PRE {font-size: 11pt; font-weight: 600; font-family: Courier New,Courier; } --></style>
+</head>
+
+
+<body><font SIZE="+1"><pre><B>                                         
+                           MOSIS WAFER ACCEPTANCE TESTS
+                                         
+     RUN: T7AE (9SF_8LM)                               VENDOR: IBM-BURLINGTON
+   TECHNOLOGY: SCN009                                FEATURE SIZE: 0.09 microns
+                                  Run type: SKD
+
+
+INTRODUCTION: This report contains the lot average results obtained by MOSIS
+              from measurements of MOSIS test structures on each wafer of
+              this fabrication lot. SPICE parameters obtained from similar
+              measurements on a selected wafer are also attached.
+
+COMMENTS: 9SF_IBM-BURLIN
+
+
+TRANSISTOR PARAMETERS     W/L       N-CHANNEL P-CHANNEL  UNITS
+                                                        
+ MINIMUM                  0.12/0.08                     
+  Vth                                    0.35     -0.43  volts
+                                                        
+ SHORT                    20.0/0.08                     
+  Idss                                 413      -170     uA/um
+                                       525*              uA/um
+  Vth                                    0.42     -0.43  volts
+  Vpt                                    1.3      -2.3   volts
+                                                        
+ WIDE                     20.0/0.08                     
+  Ids0                                1814.6    -397.1   pA/um
+                                                        
+ LARGE                    20.0/20.0                     
+  Vth                                    0.40     -0.32  volts
+  Vjbkd                                  2.0      -2.5   volts
+  Ijlk                                 &lt;50.0     &lt;50.0   pA
+                                                        
+                                                        
+COMMENTS:
+        * Transistor with 5.0 um poly to source/drain extension 
+
+PROCESS PARAMETERS   N+     P+      POLY    P+PLY    M1     M2     M3   UNITS
+ Sheet Resistance     7.2    7.5    7.4    300.8    0.13   0.09   0.08  ohms/sq
+ Contact Resistance  19.7   20.7   15.5                    1.65   3.54  ohms
+                                                                       
+PROCESS PARAMETERS   M4    M5    M6     M7     M8   N_W       LB   UNITS
+ Sheet Resistance   0.08  0.09  0.09   0.06   0.06   426     0.025 ohms/sq
+ Contact Resistance 5.25  7.69  9.55  10.08  10.30          10.70  ohms
+                                                                       
+
+CAPACITANCE PARAMETERS       N+        P+      N_W      UNITS
+ Area (substrate)           776       507       160     aF/um^2
+ Fringe (substrate)         643      1924               aF/um
+                                                       
+CIRCUIT PARAMETERS                            UNITS      
+ Inverters                     K                         
+  Vinv                        1.0       0.41  volts      
+  Vinv                        1.5       0.43  volts      
+  Vol (100 uA)                2.0       0.01  volts      
+  Voh (100 uA)                2.0       0.98  volts      
+  Vinv                        2.0       0.43  volts      
+  Gain                        2.0     -22.45             
+ Ring Oscillator Freq.                                   
+  DIV1024 (31-stg,1.0V)               423.27  MHz        
+  D1024_THK (31-stg,2.5V)             372.23  MHz        
+ Ring Oscillator Power                                   
+  DIV1024 (31-stg,1.0V)                 2.57  nW/MHz/gate
+  D1024_THK (31-stg,2.5V)              34.41  nW/MHz/gate
+                                                         
+COMMENTS: DEEP_SUBMICRON
+
+
+
+SPICE BSIM parameters not available.
+
+
+</B></pre>
+</font><a href="ftp://ftp.mosis.com/pub/mosis/vendors/ibm-90/t7ae_9sf_8lm-params.txt">Download Text File</a>
+
+
+</body>
+</html>

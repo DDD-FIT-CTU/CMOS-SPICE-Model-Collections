@@ -1,0 +1,88 @@
+<html>
+<head>
+   <title>MOSIS file ibm-90/t79p_9lprf_6_02-params.txt</title>
+   <style><!-- PRE {font-size: 11pt; font-weight: 600; font-family: Courier New,Courier; } --></style>
+</head>
+
+
+<body><font SIZE="+1"><pre><B>                                         
+                           MOSIS WAFER ACCEPTANCE TESTS
+                                          
+     RUN: T79P (9LPRF_6_02)                            VENDOR: IBM-BURLINGTON
+   TECHNOLOGY: SCN009                                FEATURE SIZE: 0.09 microns
+                                   Run type: SKD
+
+
+INTRODUCTION: This report contains the lot average results obtained by MOSIS
+              from measurements of MOSIS test structures on each wafer of
+              this fabrication lot. SPICE parameters obtained from similar
+              measurements on a selected wafer are also attached.
+
+COMMENTS: 9RF_IBM-BURLIN
+
+
+TRANSISTOR PARAMETERS     W/L       N-CHANNEL P-CHANNEL  UNITS
+                                                        
+ MINIMUM                  0.12/0.10                     
+  Vth                                    0.59     -0.50  volts
+                                                        
+ SHORT                    20.0/0.10                     
+  Idss                                 330      -181     uA/um
+                                       440*
+  Vth                                    0.65     -0.58  volts
+  Vpt                                    3.0      -3.1   volts
+                                                        
+ WIDE                     20.0/0.10                     
+  Ids0                                   8.1     -36.3   pA/um
+                                                        
+ LARGE                    20.0/20.0                     
+  Vth                                    0.22     -0.20  volts
+  Vjbkd                                  2.6      -3.1   volts
+  Ijlk                                 &lt;50.0     &lt;50.0   pA
+                                                        
+        * Transistor with 1.44 um Poly to source/drain extension
+
+PROCESS PARAMETERS     N+    P+     POLY   P+PLY    M1     M2     M3   UNITS
+ Sheet Resistance       7.3   7.7   7.5   287.1    0.14   0.08   0.08  ohms/sq
+ Contact Resistance    19.9  21.6  16.0                   1.98   4.27  ohms
+ Gate Oxide Thickness  29                                              angstrom
+                                                                      
+PROCESS PARAMETERS    M4    M5      M6      M7      M8    N_W      LB   UNITS
+ Sheet Resistance    0.08  0.09    0.09    0.06    0.06    438    0.02  ohms/sq
+ Contact Resistance  6.57  8.60   11.09   11.33   11.93                 ohms
+                                                                       
+
+CAPACITANCE PARAMETERS       N+        P+       POLY     N_W      UNITS
+ Area (substrate)           716       425                 118     aF/um^2
+ Area (N+active)                              12017               aF/um^2
+ Area (P+active)                              11410               aF/um^2
+                                                                 
+
+CIRCUIT PARAMETERS                            UNITS      
+ Inverters                     K                         
+  Vinv                        1.0       0.58  volts      
+  Vinv                        1.5       0.59  volts      
+  Vol (100 uA)                2.0       0.01  volts      
+  Voh (100 uA)                2.0       1.19  volts      
+  Vinv                        2.0       0.60  volts      
+  Gain                        2.0     -15.24             
+ Ring Oscillator Freq.                                   
+  DIV1024 (31-stg,1.2V)               470.39  MHz        
+  D1024_THK (31-stg,2.5V)             376.32  MHz        
+ Ring Oscillator Power                                   
+  DIV1024 (31-stg,1.2V)                 2.97  nW/MHz/gate
+  D1024_THK (31-stg,2.5V)              34.87  nW/MHz/gate
+                                                         
+COMMENTS: DEEP_SUBMICRON
+
+
+
+SPICE BSIM parameters not available.
+
+
+</B></pre>
+</font><a href="ftp://ftp.mosis.com/pub/mosis/vendors/ibm-90/t79p_9lprf_6_02-params.txt">Download Text File</a>
+
+
+</body>
+</html>

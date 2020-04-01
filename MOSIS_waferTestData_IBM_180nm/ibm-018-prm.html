@@ -1,0 +1,710 @@
+<html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<head>
+<title>MOSIS Test Results for IBM 0.18 Micron Runs (7RF, 7WL, 7SF, 7HP)</title>
+<META NAME="KEYWORDS" CONTENT="MOSIS Test Results for IBM 0.18 Micron
+Runs (7RF, 7WL, 7SF, 7HP)">
+<META NAME="DESCRIPTION" CONTENT="Wafer electrical test data and SPICE
+model parameters extracted by MOSIS for IBM 0.18 Micron Runs (7RF,
+7WL, 7SF, 7HP).">
+</head>
+
+<body bgcolor="#eaeaf0" text="#000000" link="#000000" alink="#000000" vlink="#000000">
+<font face="verdana" SIZE="-1">
+
+
+
+<!-- START OF TOP TITLE AND BARS -->
+<table width="100%" cellpadding="3" cellspacing="0">
+<tr bgcolor="#003377">
+<td width="100">
+<a href="http://www.mosis.com/" a style="text-decoration:none">
+<img src="http://www.mosis.com/graphics2/block_logo_2.jpg" width="70" height="66" vspace="5" hspace="5" alt="mosis-logo" border="0"></a>
+</td>
+<td width="80%">
+<a href="http://www.mosis.com/" A STYLE="text-decoration:none">
+<font face="Trebuchet MS, verdana, arial, geneva" size="+3" color="#ffffff">
+The MOSIS Service</font></a>
+<br />
+<i>
+<font face="verdana, arial, geneva" size="-1" color="#eaeaf0">
+More than 50,000 designs in over 25 years of operation
+</i>
+</font>
+</strong>
+</td>
+<td width="20%">
+
+<table cellpadding="3" cellspacing="0" border="0">
+<tr>
+<td align="center" width="300">
+<strong>
+<font face="verdana, arial, geneva" SIZE="-1" color="#F5F9FF">
+New From MOSIS
+</font>
+</strong>
+</td>
+</tr>
+<tr>
+<td bgcolor="#eeeeee" align="center">
+<strong>
+<a href="https://www.mosis.com/db/pubf/cact?page_type=login">
+<font face="Trebuchet MS, verdana, arial, geneva" SIZE="-1" color="#003366">
+Customer Account Log In</font></a>
+</strong>
+</td>
+</tr>
+<td bgcolor="#eeeeee" align="center">
+<strong>
+<a href="https://www.mosis.com/db/pubf/cs?page_type=login">
+<font face="Trebuchet MS, verdana, arial, geneva" SIZE="-1" color="#003366">
+Technical Support Log In</font></a>
+</strong>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+
+<table align="center" cellpadding="10" cellspacing="0" width="100%">
+<tr bgcolor="#e8e8de">
+<td colspan="3" align="center" valign="bottom">
+<font face="verdana, arial, geneva" size="-1">
+<a href="http://www.mosis.org/about/whatis.html">
+<a href="http://www.mosis.com/products/">
+Products<a>
+-
+<a href="http://www.mosis.com/products/fab/vendors/">
+Processes</a>
+-
+<a href="http://www.mosis.com/prices.html">
+Prices</a>
+-
+<a href="https://www.mosis.com/Webforms/menu-webforms.html">
+Web Forms</a>
+-
+<a href="http://www.mosis.com/site-map.html">
+Site Map</a>
+-
+<a href="http://support.mosis.com/">
+Support</a>
+-
+<a href="http://www.mosis.com/products/fab/schedule/">
+Fab Schedule</font></a>
+</font>
+</td>
+</tr>
+</table>
+
+
+<tr bgcolor="#cccccc">
+<td align="left">
+<font face="verdana" size="-2">
+<a href="/">
+Home</a>
+--> <a href="/test/">Test Data/SPICE Parameters</a>
+--> IBM 0.18 Parameters (7RF, 7WL, 7SF, 7HP)
+</font>
+</td>
+</tr>
+<!-- END OF TOP TITLE AND BARS -->
+
+
+
+
+<!-- START OF NAVIGATION BAR -->
+<tr bgcolor="#eeeeee">
+<td colspan="3">
+<font face="verdana" size="-2">
+<br>
+</font>
+</td>
+</tr>
+</table>
+<!-- END OF NAVIGATION BAR -->
+
+<table width="100%" cellpadding="3" cellspacing="0">
+<tr>
+
+
+<!-- START OF LEFT TOWER -->
+<!-- START OF LEFT TOWER -->
+<table align="center" cellpadding="5" cellspacing="0" border="0" width="100%">
+<tr>
+
+<td width="160" valign="top" bgcolor="#eeeeee">
+<table align="center">
+<tr>
+<td>
+<font face="verdana, geneva, helvetica, arial"  size="-1">
+
+
+<STRONG>
+<font face="verdana, geneva, helvetica, arial, geneva, helvetica" color="#333399" SIZE="-1">
+General Information
+</font>
+</strong>
+<br />
+<a href="/about/whatis.html">
+About MOSIS</a>
+<br>
+<a href="/products/">
+Products</a>
+<br>
+<a href="/products/fab/vendors/">
+Processes</a>
+<br>
+<a href="/prices.html">
+Prices</a>
+<br>
+<a href="/support/support-menu.html">
+Support</a>
+<br>
+<a href="/support/usergroup.html">
+User Group</a>
+<br />
+<a href="/about/events/">
+Events</a>
+<br />
+<a href="/about/employment.html">
+Job Openings</a>
+<br />
+<a href="/about/news-pub.html">
+News</a>
+<br>
+<br>
+
+<STRONG>
+<font face="verdana, geneva, helvetica, arial, geneva, helvetica" color="#333399" SIZE="-1">
+Work with MOSIS
+</font>
+</strong>
+<br />
+<a href="/introduction.html">
+Getting Started</a>
+<br>
+<a href="/design/">
+Design and Test</a>
+
+
+<br>
+<br>
+
+<STRONG>
+<font face="verdana, geneva, helvetica, arial, geneva, helvetica" color="#333399" SIZE="-1">
+Requests
+</font>
+</strong>
+<br />
+<a href="http://www.mosis.com/Customer/run-status.html">
+Run Status</a>
+<br>
+<a href="https://www.mosis.com/db/pubf/cact?page_type=login">
+Account Status</a>
+<br>
+<a href="https://www.mosis.com/db/pubf/proj_status?page_type=login">
+Project Login</a>
+<br>
+<a href="https://www.mosis.com/db/pubf/proj_status?page_type=login">
+Project Status</a>
+<br>
+<a href="/test/">
+Test Data</a>
+
+<br>
+<br>
+
+<STRONG>
+<font face="verdana, geneva, helvetica, arial, geneva, helvetica" color="#333399" SIZE="-1">
+Docs and Forms
+</font>
+</strong>
+<br>
+<a href="/forms/">
+Documents</a>
+<br>
+<a href="https://www.mosis.com/db/pubf/careq">
+Forms/Agreements</a>
+<br>
+<a href="https://www.mosis.com/Webforms/menu-webforms.html">
+Web Forms</a>
+
+<br>
+<br>
+
+<STRONG>
+<font face="verdana, geneva, helvetica, arial, geneva, helvetica" color="#333399" SIZE="-1">
+Quick Reference 
+</font>
+</strong>
+<br />
+<a href="/introduction.html">
+New Users</a>
+<br>
+<a href="/quick-reference.html">
+Experienced Users</a>
+<br>
+<a href="/buyers.html">
+Purchasing Agents</a>
+<br>
+<a href="/design/">
+Design and Test</a>
+<br>
+<a href="/orders/customer_accounts/academic-accounts.html">
+Academic Institutions</a>
+<br>
+<a href="/export/">
+Export Program</a>
+<br>
+<a href="/support/submit/">
+Submit A Project</a>
+<br />
+<br />
+<center>
+<form method="post" action="http://www.mosis.com/cgi-bin/htsearch">
+<strong>
+<font face="verdana, geneva, helvetica, arial, geneva, helvetica" color="#333399" SIZE="-1">
+Search MOSIS
+</font>
+</strong>
+<input type="text" size="20" name="words" value="">
+<input type="submit" value="Search">
+</form>
+</center>
+
+</font>
+</td>
+</tr>
+</table>
+</td>
+<!-- END OF LEFT TOWER -->
+
+
+
+
+
+<!-- END OF LEFT TOWER -->
+
+
+
+<!-- START OF CENTER BODY -->
+
+<td bgcolor="#ffffff" valign="top">
+<font face="verdana, geneva, helvetica, arial" size="-1">
+
+
+<table width="95%" cellpadding="3" cellspacing="0" align="center">
+<tr>
+<td>
+<font face="verdana, geneva, helvetica, arial" size="-1">
+
+<br>
+
+<center>
+<strong>
+<font face="times new roman" size="+0" color="#333399">
+Wafer Electrical Test Data and SPICE Model Parameters
+</font>
+<br />
+<font face="times new roman" size="+2" color="#333399">
+IBM 7RF, 7WL, 7SF, 7HP (0.18 micron)
+</font>
+</strong>
+</center>
+
+<br>
+
+<table cellpadding="3" cellspacing="0" width="85%" align="center">
+<tr>
+<td>
+<font face="verdana, geneva, helvetica, arial" size="-1">
+
+<br />
+
+<tr>
+<td valign="top" align="center">
+<table border="0">
+<tr>
+<td valign="top" align="center">
+<font face="verdana, geneva, helvetica, arial" size="-1">
+<hr noshade>
+<A HREF="data/v15c_7wl_6lm_ma-params.txt">V15C_7WL_6LM_MA</A><BR>
+<A HREF="data/v15c_7wl_7lm_ma-params.txt">V15C_7WL_7LM_MA</A><BR>
+<A HREF="data/v12c_7hv_6lm_am_c4-params.txt">V12C_7HV_6LM_AM_C4</A><BR>
+<A HREF="data/v12c_7hv_5lm_am_hd-params.txt">V12C_7HV_5LM_AM_HD</A><BR>
+<A HREF="data/v12c_7hv_6lm_am-params.txt">V12C_7HV_6LM_AM</A><BR>
+<A HREF="data/v12c_7hv_5lm_am-params.txt">V12C_7HV_5LM_AM</A><BR>
+<A HREF="data/v14a_7rf_5lm_am-params.txt">V14A_7RF_5LM_AM</A><BR>
+<A HREF="data/v14a_7rf_6lm_ml_5v_c4u8-params.txt">V14A_7RF_6LM_ML_5V_C4U8</A><BR>
+<A HREF="data/v14a_7rf_6lm_ml-params.txt">V14A_7RF_6LM_ML</A><BR>
+<A HREF="data/v13c_7rfsoi_4lm_dm-params.txt">V13C_7RFSOI_4LM_DM</A><BR>
+<A HREF="data/v13a_7wl_4lm_ml_hk-params.txt">V13A_7WL_4LM_ML_HK</A><BR>
+<A HREF="data/v13a_7wl_7lm_ma-params.txt">V13A_7WL_7LM_MA</A><BR>
+<A HREF="data/t8bu_2_7wl_7lm_ma-params.txt">T8BU_#2_7WL_7LM_MA</A><BR>
+<A HREF="data/t8bu_7wl_7lm_ma-params.txt">T8BU_7WL_7LM_MA</A><BR>
+<A HREF="data/t8bu_7wl_4lm_am-params.txt">T8BU_7WL_4LM_AM</A><BR>
+<A HREF="data/v11c_7wl_7lm_ma-params.txt">V11C_7WL_7LM_MA</A><BR>
+<A HREF="data/v11c_7wl_4lm_am-params.txt">V11C_7WL_4LM_AM</A><BR>
+<A HREF="data/v08z_7rf_6lm_ml-params.txt">V08Z_7RF_6LM_ML</A><BR>
+<A HREF="data/v08z_7rf_6lm_ml_nopolymd-params.txt">V08Z_7RF_6LM_ML_NOPOLYMD</A><BR>
+<A HREF="data/v08z_7rf_6lm_ml_nopolymd_2-params.txt">V08Z_7RF_6LM_ML_NOPOLYMD_2</A><BR>
+<A HREF="data/t71p_7hp_5lm_am_4-params.txt">T71P_7HP_5LM_AM_4</A><BR>
+<A HREF="data/t71p_7hp_5lm_am_2-params.txt">T71P_7HP_5LM_AM_2</A><BR>
+<A HREF="data/t71p_7hp_5lm_am-params.txt">T71P_7HP_5LM_AM</A><BR>
+<A HREF="data/t71p_3_7hp_5lm_am-params.txt">T71P_#3_7HP_5LM_AM</A><BR>
+<A HREF="data/v0bc_7hv_5lm_am_hd-params.txt">V0BC_7HV_5LM_AM_HD</A><BR>
+<A HREF="data/v0bc_7hv_4lm_am-params.txt">V0BC_7HV_4LM_AM</A><BR>
+<A HREF="data/v0bc_7hv_5lm_am-params.txt">V0BC_7HV_5LM_AM</A><BR>
+<A HREF="data/v0ba_7wl_7lm_ma-params.txt">V0BA_7WL_7LM_MA</A><BR>
+<A HREF="data/v0ba_7wl_7lm_ma_hk-params.txt">V0BA_7WL_7LM_MA_HK</A><BR>
+<A HREF="data/v0ba_7wl_5lm_ma-params.txt">V0BA_7WL_5LM_MA</A><BR>
+<A HREF="data/v0cb_7rf_5lm_am-params.txt">V0CB_7RF_5LM_AM</A><BR>
+<A HREF="data/v0cb_7rf_6lm_ml-params.txt">V0CB_7RF_6LM_ML</A><BR>
+<A HREF="data/v0cb_7rf_4lm_ma_c4u8-params.txt">V0CB_7RF_4LM_MA_C4U8</A><BR>
+<A HREF="data/v05g_7wl_6lm_ma-params.txt">V05G_7WL_6LM_MA</A><BR>
+<A HREF="data/v05g_7wl_3lm_am-params.txt">V05G_7WL_3LM_AM</A><BR>
+<A HREF="data/v05g_7wl_4lm_am-params.txt">V05G_7WL_4LM_AM</A><BR>
+<A HREF="data/v09f_7wl_7lm_ma-params.txt">V09F_7WL_7LM_MA</A><BR>
+<A HREF="data/v09f_7wl_7lm_ma_c4-params.txt">V09F_7WL_7LM_MA_C4</A><BR>
+<A HREF="data/v08f_7hv_5lm_am-params.txt">V08F_7HV_5LM_AM</A><BR>
+<A HREF="data/v08f_7hv_6lm_am-params.txt">V08F_7HV_6LM_AM</A><BR>
+<A HREF="data/v0af_7rf_6lm_ml-params.txt">V0AF_7RF_6LM_ML</A><BR>
+<A HREF="data/v02m_1_7rf_6lm_ml-params.txt">V02M_#1_7RF_6LM_ML</A><BR>
+<A HREF="data/v02m_7rf_6lm_ml-params.txt">V02M_7RF_6LM_ML</A><BR>
+<A HREF="data/v07c_7wl_5lm_ma-params.txt">V07C_7WL_5LM_MA</A><BR>
+<A HREF="data/v07c_7wl_5lm_am-params.txt">V07C_7WL_5LM_AM</A><BR>
+<A HREF="data/v07c_7wl_7lm_ma-params.txt">V07C_7WL_7LM_MA</A><BR>
+<A HREF="data/v08g_7rf_6lm_ml_5v-params.txt">V08G_7RF_6LM_ML_5V</A><BR>
+<A HREF="data/v08g_7rf_3lm_am-params.txt">V08G_7RF_3LM_AM</A><BR>
+<A HREF="data/v0ah_7rfsoi_4lm_dm_c4-params.txt">V0AH_7RFSOI_4LM_DM_C4</A><BR>
+<A HREF="data/v0ah_7rfsoi_3lm_am-params.txt">V0AH_7RFSOI_3LM_AM</A><BR>
+<A HREF="data/v0ah_7rfsoi_4lm_dm-params.txt">V0AH_7RFSOI_4LM_DM</A><BR>
+<A HREF="data/v08y_7rf_6lm_ml-params.txt">V08Y_7RF_6LM_ML</A><BR>
+<A HREF="data/v06a_7rfsoi_3lm_am_c4u8-params.txt">V06A_7RFSOI_3LM_AM_C4U8</A><BR>
+<A HREF="data/v06a_7rfsoi_3lm_npm-params.txt">V06A_7RFSOI_3LM_NPM</A><BR>
+<A HREF="data/v06a_7rfsoi_3lm_am-params.txt">V06A_7RFSOI_3LM_AM</A><BR>
+<A HREF="data/v05a_7hv_4lm_am-params.txt">V05A_7HV_4LM_AM</A><BR>
+<A HREF="data/v05a_7hv_5lm_am-params.txt">V05A_7HV_5LM_AM</A><BR>
+<A HREF="data/v06h_7rf_6lm_ml-params.txt">V06H_7RF_6LM_ML</A><BR>
+<A HREF="data/v06h_7rf_5lm_ma-params.txt">V06H_7RF_5LM_MA</A><BR>
+<A HREF="data/v06h_7rf_5lm_am-params.txt">V06H_7RF_5LM_AM</A><BR>
+<A HREF="data/v04c_7rf_6lm_ml-params.txt">V04C_7RF_6LM_ML</A><BR>
+<A HREF="data/v04c_7rf_5lm_ma_c4u10-params.txt">V04C_7RF_5LM_MA_C4U10</A><BR>
+<A HREF="data/v04c_7rf_5lm_ma-params.txt">V04C_7RF_5LM_MA</A><BR>
+<A HREF="data/v03c_7wl_7lm_ma-params.txt">V03C_7WL_7LM_MA</A><BR>
+<A HREF="data/v03c_7wl_7lm_ma_hk-params.txt">V03C_7WL_7LM_MA_HK</A><BR>
+<A HREF="data/v03c_7wl_5lm_ma-params.txt">V03C_7WL_5LM_MA</A><BR>
+<A HREF="data/t9ct_7rf_5lm_am_5v-params.txt">T9CT_7RF_5LM_AM_5V</A><BR>
+<A HREF="data/t9ct_7rf_6lm_ml_5v_c4-params.txt">T9CT_7RF_6LM_ML_5V_C4</A><BR>
+<A HREF="data/t9ct_7rf_6lm_ml-params.txt">T9CT_7RF_6LM_ML</A><BR>
+<A HREF="data/t9ct_7rf_6lm_ma_5v-params.txt">T9CT_7RF_6LM_MA</A><BR>
+<A HREF="data/v01n_7wl_7lm_ma-params.txt">V01N_7WL_7LM_MA</A><BR>
+<A HREF="data/v01n_7wl_5lm_ma-params.txt">V01N_7WL_5LM_MA</A><BR>
+<A HREF="data/v01n_7wl_4lm_am-params.txt">V01N_7WL_4LM_AM</A><BR>
+<A HREF="data/v02p_7rf_6lm_ml-params.txt">V02P_7RF_6LM_ML</A><BR>
+<A HREF="data/t9at_7rf_6lm_ml-params.txt">T9AT_7RF_6LM_ML</A><BR>
+<A HREF="data/t99c_7wl_7lm_ma-params.txt">T99C_7WL_7LM_MA</A><BR>
+<A HREF="data/t98b_7rf_6lm_ml-params.txt">T98B_7RF_6LM_ML</A><BR>
+<A HREF="data/t98b_7rf_5lm_ma-params.txt">T98B_7RF_5LM_MA</A><BR>
+<A HREF="data/t98b_7rf_3lm_am-params.txt">T98B_7RF_3LM_AM</A><BR>
+<A HREF="data/t97m_7wl_4lm_am-params.txt">T97M_7WL_4LM_AM</A><BR>
+<A HREF="data/t97m_7wl_7lm_ma-params.txt">T97M_7WL_7LM_MA</A><BR>
+<A HREF="data/t97m_7wl_7lm_ma_hk-params.txt">T97M_7WL_7LM_MA_HK</A><BR>
+<A HREF="data/t96c_7hp_5lm_am-params.txt">T96C_7HP_5LM_AM</A><BR>
+<A HREF="data/t93m_1_7wl_5lm_ma-params.txt">T93M_#1_7WL_5LM_MA</A><BR>
+<A HREF="data/t93m_7wl_5lm_ma-params.txt">T93M_7WL_5LM_MA</A><BR>
+<A HREF="data/t93m_7wl_4lm_am-params.txt">T93M_7WL_4LM_AM</A><BR>
+<A HREF="data/t96t_7rf_6lm_ml-params.txt">T96T_7RF_6LM_ML</A><BR>
+<A HREF="data/t96t_7rf_5lm_ma-params.txt">T96T_7RF_5LM_MA</A><BR>
+<A HREF="data/t96t_7rf_6lm_ma_5v-params.txt">T96T_7RF_6LM_MA_5V</A><BR>
+<A HREF="data/t94e_1_7rf_6lm_ml-params.txt">T94E_#1_7RF_6LM_MA</A><BR>
+<A HREF="data/t94e_7rf_6lm_ml-params.txt">T94E_7RF_6LM_MA</A><BR>
+<A HREF="data/t94h_7wl_7lm_ma-params.txt">T94H_7WL_7LM_MA</A><BR>
+<A HREF="data/t94h_7wl_5lm_ma-params.txt">T94H_7WL_5LM_MA</A><BR>
+<A HREF="data/t94h_7wl_4lm_am-params.txt">T94H_7WL_4LM_AM</A><BR>
+<A HREF="data/t8cj_7rf_4lm_am-params.txt">T8CJ_7RF_4LM_AM</A><BR>
+<A HREF="data/t8cj_7rf_6lm_ml_2-params.txt">T8CJ_7RF_6LM_ML_2</A><BR>
+<A HREF="data/t8cj_7rf_6lm_ml-params.txt">T8CJ_7RF_6LM_ML</A><BR>
+<A HREF="data/t8cj_7rf_5lm_ma-params.txt">T8CJ_7RF_5LM_MA</A><BR>
+<A HREF="data/t81d_1_7hp_6lm_am_c4-params.txt">T81D_#1_7HP_6LM_AM_C4</A><BR>
+<A HREF="data/t81d_7hp_6lm_am_c4-params.txt">T81D_7HP_6LM_AM_C4</A><BR>
+<A HREF="data/t89s_7wl_7lm_ma-params.txt">T89S_7WL_7LM_MA</A><BR>
+<A HREF="data/t89s_7wl_5lm_ma-params.txt">T89S_7WL_5LM_MA</A><BR>
+<A HREF="data/t86l_7rf_6lm_ma_5v-params.txt">T86L_7RF_6LM_MA_5V</A><BR>
+<A HREF="data/t86l_7rf_6lm_ml-params.txt">T86L_7RF_6LM_ML</A><BR>
+<A HREF="data/t86l_7rf_6lm_ma-params.txt">T86L_7RF_6LM_MA</A><BR>
+<A HREF="data/t87z_7wl_7lm_ma-params.txt">T87Z_7WL_7LM_MA</A><BR>
+<A HREF="data/t87z_7wl_4lm_am-params.txt">T87Z_7WL_4LM_AM</A><BR>
+<A HREF="data/t6bb_1_7wl_7lm_ma-params.txt">T6BB_#1_7WL_7LM_MA</A><BR>
+<A HREF="data/t6bb_7wl_6lm_ma-params.txt">T6BB_7WL_6LM_MA</A><BR>
+<A HREF="data/t6bb_7wl_4lm_am-params.txt">T6BB_7WL_4LM_AM</A><BR>
+<A HREF="data/t6bb_7wl_7lm_ma-params.txt">T6BB_7WL_7LM_MA</A><BR>
+<A HREF="data/t82m_7rf_6lm_ml_qt-params.txt">T82M_7RF_6LM_ML_QT</A><BR>
+<A HREF="data/t82m_7rf_5lm_am_1-params.txt">T82M_7RF_5LM_AM_1</A><BR>
+<A HREF="data/t82m_7rf_5lm_am-params.txt">T82M_7RF_5LM_AM</A><BR>
+<A HREF="data/t82m_7rf_6lm_ml-params.txt">T82M_7RF_6LM_ML</A><BR>
+<A HREF="data/t82m_7rf_6lm_ml_5v-params.txt">T82M_7RF_6LM_ML_5V</A><BR>
+<A HREF="data/t82m_7rf_4lm_am-params.txt">T82M_7RF_4LM_AM</A><BR>
+<A HREF="data/t76p_7wl_4lm_am_2-params.txt">T76P_7WL_4LM_AM_2</A><BR>
+<A HREF="data/t76p_7wl_4lm_am-params.txt">T76P_7WL_4LM_AM</A><BR>
+<A HREF="data/t48t_7wl_4lm_am_2-params.txt">T48T_7WL_4LM_AM_2</A><BR>
+<A HREF="data/t48t_7wl_4lm_am-params.txt">T48T_7WL_4LM_AM</A><BR>
+<A HREF="data/t85s_7wl_5lm_ma-params.txt">T85S_7WL_5LM_MA</A><BR>
+<A HREF="data/t85s_7wl_7lm_ma-params.txt">T85S_7WL_7LM_MA</A><BR>
+<A HREF="data/t85s_7wl_4lm_am-params.txt">T85S_7WL_4LM_AM</A><BR>
+<A HREF="data/t84e_7rf_6lm_ma-params.txt">T84E_7RF_6LM_MA</A><BR>
+<A HREF="data/t84e_7rf_5lm_ma-params.txt">T84E_7RF_5LM_MA</A><BR>
+<A HREF="data/t83s_7wl_7lm_ma-params.txt">T83S_7WL_7LM_MA</A><BR>
+<A HREF="data/t83s_7wl_4lm_am-params.txt">T83S_7WL_4LM_AM</A><BR>
+<A HREF="data/t81z_7wl_7lm_ma-params.txt">T81Z_7WL_7LM_MA</A><BR>
+<A HREF="data/t81z_7wl_6lm_ma-params.txt">T81Z_7WL_6LM_MA</A><BR>
+<A HREF="data/t81z_7wl_4lm_am-params.txt">T81Z_7WL_4LM_AM</A><BR>
+<A HREF="data/t7ca_7rf_6lm_ml-params.txt">T7CA_7RF_6LM_ML</A><BR>
+<A HREF="data/t7cw_7rf_6lm_ml-params.txt">T7CW_7RF_6LM_ML</A><BR>
+<A HREF="data/t7cw_7rf_6lm_ma-params.txt">T7CW_7RF_6LM_MA</A><BR>
+<A HREF="data/t7bm_7wl_7lm_ma_hk-params.txt">T7BM_7WL_7LM_MA</A><BR>
+<A HREF="data/t7bm_7wl_7lm_ma-params.txt">T7BM_7WL_7LM_MA_HK</A><BR>
+<A HREF="data/t7bm_7wl_4lm_am-params.txt">T7BM_7WL_4LM_AM</A><BR>
+<A HREF="data/t7ad_7rf_6lm_ml-params.txt">T7AD_7RF_6LM_ML</A><BR>
+<A HREF="data/t7ad_7rf_5lm_ma-params.txt">T7AD_7RF_5LM_MA</A><BR>
+<A HREF="data/t6bz_7hp_5lm_am-params.txt">T6BZ_7HP_5LM_AM</A><BR>
+<A HREF="data/t77v_7hp_7lm-params.txt">T77V_7HP_7LM</A><BR>
+<A HREF="data/t79s_7wl_7lm_ma-params.txt">T79S_7WL_7LM_MA</A><BR>
+<A HREF="data/t79s_7wl_6lm_ma-params.txt">T79S_7WL_6LM_MA</A><BR>
+<A HREF="data/t79s_7wl_4lm_ma-params.txt">T79S_7WL_4LM_MA</A><BR>
+<A HREF="data/t78f_7rf_7lm_ma-params.txt">T78F_7RF_7LM_MA</A><BR>
+<A HREF="data/t78f_7rf_7lm_ml-params.txt">T78F_7RF_7LM_ML</A><BR>
+<A HREF="data/t78g_7rf_6lm_ml-params.txt">T78G_7RF_6LM_ML</A><BR>
+<A HREF="data/t78g_7rf_6lm_ma-params.txt">T78G_7RF_6LM_MA</A><BR>
+<A HREF="data/t77u_7wl_7lm_ma_hk-params.txt">T77U_7WL_7LM_MA_HK</A><BR>
+<A HREF="data/t77u_7wl_7lm_ma-params.txt">T77U_7WL_7LM_MA</A><BR>
+<A HREF="data/t77u_7wl_4lm_am-params.txt">T77U_7WL_4LM_AM</A><BR>
+<A HREF="data/t75x_7wl_7lm_ma-params.txt">T75X_7WL_7LM_MA</A><BR>
+<A HREF="data/t75x_7wl_6lm_ma-params.txt">T75X_7WL_6LM_MA</A><BR>
+<A HREF="data/t76m_7rf_6lm_ml-params.txt">T76M_7RF_6LM_ML</A><BR>
+<A HREF="data/t76m_7rf_8lm-params.txt">T76M_7RF_8LM</A><BR>
+<A HREF="data/t49k_7wl-params.txt">T49K_7WL</A><BR>
+<A HREF="data/t57s_7hp_7lm-params.txt">T57S_7HP_7LM</A><BR>
+<A HREF="data/t57s_7hp_6lm_c4-params.txt">T57S_7HP_6LM_C4</A><BR>
+<A HREF="data/t74p_7rf_6lm_ml-params.txt">T74P_7RF_6LM_ML</A><BR>
+<A HREF="data/t74p_7rf_6lm_ma-params.txt">T74P_7RF_6LM_MA</A><BR>
+<A HREF="data/t73b_7wl_4lm_am-params.txt">T73B_7WL_4LM_AM</A><BR>
+<A HREF="data/t73b_7wl_6lm_ma-params.txt">T73B_7WL_6LM_MA</A><BR>
+<A HREF="data/t73c_7wl_7lm_ma-params.txt">T73C_7WL_7LM_MA</A><BR>
+<A HREF="data/t72v_7hp_7lm_am_c4-params.txt">T72V_7HP_7LM_AM_C4</A><BR>
+<A HREF="data/t72v_7hp_7lm_am-params.txt">T72V_7HP_7LM_AM</A><BR>
+<A HREF="data/t71m_7wl_7lm_ma_c4-params.txt">T71M_7WL_7LM_MA_C4</A><BR>
+<A HREF="data/t71m_7wl_5lm_ma-params.txt">T71M_7WL_5LM_MA</A><BR>
+<A HREF="data/t71m_7wl_4lm_am-params.txt">T71M_7WL_4LM_AM</A><BR>
+<A HREF="data/t6cb_7hp_6lm_am_c4-params.txt">T6CB_7HP_6LM_AM_C4</A><BR>
+<A HREF="data/t6cb_7hp_5lm_am-params.txt">T6CB_7HP_5LM_AM</A><BR>
+<A HREF="data/t6cc_7rf_4lm_am-params.txt">T6CC_7RF_4LM_AM</A><BR>
+<A HREF="data/t6cc_7rf_6lm_ml-params.txt">T6CC_7RF_6LM_ML</A><BR>
+<A HREF="data/t4cx_7wl_7lm_ma_4-params.txt">T4CX_7WL_7LM_MA_4</A><BR>
+<A HREF="data/t6ay_7rf_6lm_ml-params.txt">T6AY_7RF_6LM_ML</A><BR>
+<A HREF="data/t6ay_7rf_8lm_ma-params.txt">T6AY_7RF_8LM_MA</A><BR>
+<A HREF="data/t69f_7wl_4lm_am-params.txt">T69F_7WL_4LM_AM</A><BR>
+<A HREF="data/t69f_7wl_6lm-params.txt">T69F_7WL_6LM</A><BR>
+<A HREF="data/t69e_7wl_7lm_ma-params.txt">T69E_7WL_7LM_MA</A><BR>
+<A HREF="data/t68y_7rf_6lm_ml-params.txt">T68Y_7RF_6LM_ML</A><BR>
+<A HREF="data/t68y_7rf_4lm_ml-params.txt">T68Y_7RF_4LM_ML</A><BR>
+<A HREF="data/t67j_7wl_5lm_ma-params.txt">T67J_7WL_5LM_MA</A><BR>
+<A HREF="data/t67j_7wl_4lm_am-params.txt">T67J_7WL_4LM_AM</A><BR>
+<A HREF="data/t67k_7wl_6lm_ma-params.txt">T67K_7WL_6LM_MA</A><BR>
+<A HREF="data/t67k_7wl_7lm_ma-params.txt">T67K_7WL_7LM_MA</A><BR>
+<A HREF="data/t66f_7rf_6lm_ml-params.txt">T66F_7RF_6LM_ML</A><BR>
+<A HREF="data/t65r_7wl_5lm_ma-params.txt">T65R_7WL_5LM_MA</A><BR>
+<A HREF="data/t65r_7wl_6lm_ma-params.txt">T65R_7WL_6LM_MA</A><BR>
+<A HREF="data/t65r_7wl_7lm_ma_c4-params.txt">T65R_7WL_7LM_MA_C4</A><BR>
+<A HREF="data/t64j_7hp_5lm_am-params.txt">T64J_7HP_5LM_AM</A><BR>
+<A HREF="data/t64d_7rf_6lm_ml-params.txt">T64D_7RF_6LM_ML</A><BR>
+<A HREF="data/t63t_7wl_6lm_ma-params.txt">T63T_7WL_6LM_MA</A><BR>
+<A HREF="data/t62m_7rf_6lm_ml-params.txt">T62M_7RF_6LM_ML</A><BR>
+<A HREF="data/t61d_7wl_6lm_ma-params.txt">T61D_7WL_6LM_MA</A><BR>
+<A HREF="data/t61d_7wl_4lm_am-params.txt">T61D_7WL_4LM_AM</A><BR>
+<A HREF="data/t61c_7wl_7lm_ma-params.txt">T61C_7WL_7LM_MA</A><BR>
+<A HREF="data/t5ct_7rf_4lm_ml-params.txt">T5CT_7RF_4LM_ML</A><BR>
+<A HREF="data/t5ct_7rf_4lm_am-params.txt">T5CT_7RF_4LM_AM</A><BR>
+<A HREF="data/t5ct_7rf_6lm_ml-params.txt">T5CT_7RF_6LM_ML</A><BR>
+<A HREF="data/t5bg_7hp_5lm_am-params.txt">T5BG_7HP_5LM_AM</A><BR>
+<A HREF="data/t5bg_7hp_7lm_am-params.txt">T5BG_7HP_7LM_AM</A><BR>
+<A HREF="data/t5cu_7rf_7lm_ml-params.txt">T5CU_7RF_7LM_ML</A><BR>
+<A HREF="data/t5bj_7wl_7lm_ma-params.txt">T5BJ_7WL_7LM_MA</A><BR>
+<A HREF="data/t5bj_7wl_6lm_ma-params.txt">T5BJ_7WL_6LM_MA</A><BR>
+<A HREF="data/t5as_7rf_6lm_ml-params.txt">T5AS_7RF_6LM_ML</A><BR>
+<A HREF="data/t5as_7rf_4lm_am-params.txt">T5AS_7RF_4LM_AM</A><BR>
+<A HREF="data/t59q_7wl_7lm_ma-params.txt">T59Q_7WL_7LM_MA</A><BR>
+<A HREF="data/t59q_7wl_5lm_ma-params.txt">T59Q_7WL_5LM_MA</A><BR>
+<A HREF="data/t59q_7wl_6lm_ma-params.txt">T59Q_7WL_6LM_MA</A><BR>
+<A HREF="data/t58z_7rf_8lm_ma-params.txt">T58Z_7RF_8LM_MA</A><BR>
+<A HREF="data/t58z-params.txt">T58Z_7RF_6LM_ML</A><BR>
+<A HREF="data/t57k_7wl_7lm_ma-params.txt">T57K_7WL_7LM_MA</A><BR>
+<A HREF="data/t57k_7wl_7lm_ma_c4-params.txt">T57K_7WL_7LM_MA_C4</A><BR>
+<A HREF="data/t55x-params.txt">T55X_7HP_5LM_AM</A><BR>
+<A HREF="data/t56g_8lm_ma-params.txt">T56G_7RF_8LM_MA</A><BR>
+<A HREF="data/t56g_4lm_ml-params.txt">T56G_7RF_4LM_ML</A><BR>
+<A HREF="data/t55c-params.txt">T55C_7WL</A><BR>
+<A HREF="data/t55t-params.txt">T55T_7WL</A><BR>
+<A HREF="data/t54h_6lm_ma-params.txt">T54H_7RF_6LM_MA</A><BR>
+<A HREF="data/t54h_6lm_ml-params.txt">T54H_7RF_6LM_ML</A><BR>
+<A HREF="data/t4cx_7wl-params.txt">T4CX_7WL</A><BR>
+<A HREF="data/t51s-params.txt">T51S_7WL</A><BR>
+<A HREF="data/t52h_8lm-params.txt">T52H_7RF_8LM</A><BR>
+<A HREF="data/t52h_6lm-params.txt">T52H_7RF_6LM</A><BR>
+<A HREF="data/t51c-params.txt">T51C_7RF</A><BR>
+<A HREF="data/t4bl_7lm-params.txt">T4BL_7WL_7LM</A><BR>
+<A HREF="data/t47m_7lm-params.txt">T47M_7WL_7LM</A><BR>
+<A HREF="data/t4cr-params.txt">T4CR_7RF</A><BR>
+<A HREF="data/t4bg_7hp-params.txt">T4BG_7HP</A><BR>
+<A HREF="data/t49r-params.txt">T49R_7WL</A><BR>
+<A HREF="data/t49j-params.txt">T49J_7HP</A><BR>
+<A HREF="data/t4az_6lm-params.txt">T4AZ_7RF_6LM</A><BR>
+<A HREF="data/t46y-params.txt">T46Y_7RF</A><BR>
+<A HREF="data/t45r-params.txt">T45R_7HP</A><BR>
+<A HREF="data/t48w-params.txt">T48W_7RF</A><BR>
+<A HREF="data/t45p-params.txt">T45P_7WL</A><BR>
+<A HREF="data/t44h-params.txt">T44H_7RF</A><BR>
+<A HREF="data/t42s-params.txt">T42S_7RF</A><BR>
+<br>
+<hr noshade>
+</font>
+</td>
+</tr>
+</table>
+<tr>
+<td valign="top" align="center">
+<font face="verdana, geneva, helvetica, arial" size="-1">
+<br />
+<br />
+Go to
+<br />
+<a href="/ibm/7rf/">
+IBM CMOS 0.18 7RF</a>
+<br />
+<a href="/ibm/7wl/">
+IBM CMOS 0.18 7WL</a>
+<br />
+<a href="/ibm/7sf/">
+IBM CMOS 0.18 7SF</a>
+<br />
+<a href="/ibm/7hp/">
+IBM CMOS 0.18 7HP</a>
+</font>
+</td>
+</tr>
+</table>
+
+<br>
+<hr width="100">
+<br>
+
+<strong>
+<font face="verdana" size="-1" color="#333333">
+Related Links
+</font>
+</strong>
+<font face="verdana, geneva, helvetica, arial" size="-1">
+<li>
+<a href="/products/fab/schedule/">
+Fabrication Schedule</a>
+<li>
+<a href="/support/customer.html">
+Customer Support</a>
+<li>
+<a href="/products/">
+MOSIS Products</a>
+
+</font>
+</td>
+</tr>
+</table>
+
+<br>
+<hr>
+
+</td>
+
+<!-- END OF CENTER BODY -->
+
+
+
+
+<!-- START OF RIGHT TOWER -->
+<!-- START OF RIGHT TOWER -->
+<td  width="2" valign="top" bgcolor="#eeeeee">
+<table align="center">
+<tr >
+<td>
+<font face="verdana, geneva, helvetica, arial"  size="-1">
+<br />
+
+</font>
+</TD>
+</TR>
+</TABLE>
+</TD>
+<!-- END OF RIGHT TOWER -->
+
+
+
+<!-- END OF RIGHT TOWER -->
+
+
+</tr>
+
+
+<!-- START OF BOTTOM SECTION -->
+<table width="100%">
+<tr bgcolor="#e8e8de">
+<td colspan="2" align="center">
+<br>
+</td>
+</tr>
+</table>
+<br>
+<center>
+<strong>
+<a href="http://www.mosis.com/" A STYLE="text-decoration:none">
+<font face="verdana, arial, geneva" size="-1" color="#003377">
+The MOSIS Service</font></a>
+</strong>
+<br>
+<font face="verdana, arial, geneva" size="-1">
+4676 Admiralty Way, Marina del Rey, California 90292-6695 USA
+
+<br>
+<br>
+<center>
+<font face="verdana, arial, geneva" size="-2">
+<a href="http://www.mosis.com/about/contacts.html">
+Contacts</a>
+-
+<a href="http://www.mosis.com/search.html">
+Search MOSIS</a>
+-
+<a href="http://www.mosis.com/site-map.html">
+Site Map</a>
+-
+<a href="http://www.mosis.com/about/privacy.html">
+Privacy Statement</a>
+</font>
+</center>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-12674244-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+
+<!-- END OF BOTTOM SECTION -->
+
+
+
